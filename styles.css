@@ -17,7 +17,10 @@ body {
   background-color: var(--bg-main);
 }
 
-/* Top Bar */
+.top-right {
+  margin-right: 100px;
+}
+
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -29,15 +32,15 @@ body {
   
   position: fixed;
   top: 0;
-  left: 0; /* match sidebar width */
+  left: 0;
   right: 0;
   width: 100%;
   z-index: 1100;
 }
 
 .main-content-wrapper {
-  margin-left: 220px; /* match sidebar */
-  margin-top: 60px;   /* match header height */
+  margin-left: 220px;
+  margin-top: 60px;
   height: calc(100vh - 60px);
   overflow: auto;
   position: relative;
@@ -46,18 +49,16 @@ body {
 .logo-text {
   font-weight: 800;
   font-size: 20px;
-  /* remove color: white */
 }
 
 .logo-gradient {
   font-weight: 800;
   font-size: 20px;
-  background: linear-gradient(90deg, #facc15, #f97316); /* yellow to orange */
+  background: linear-gradient(90deg, #facc15, #f97316);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Top Buttons */
 .btn-header {
   background-color: #334155;
   padding: 6px 14px;
@@ -74,27 +75,34 @@ body {
 }
 
 .kofi {
+  background-color: gold;
+  color: #334155;
+}
+
+.des {
   background-color: #ef4444;
-  color: white;
+  color: #d1eaf0;
 }
 
 .kofi:hover {
-  background-color: #f87171;
+  background-color: yellow;
 }
 
-/* Layout Structure */
+.des:hover {
+  background-color: #ef9f44;
+}
+
 .layout {
   display: flex;
   height: calc(100vh - 60px);
 }
 
-/* Sidebar */
 .sidebar {
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
-  width: 250px; /* or whatever your sidebar width is */
+  width: 250px;
   background-color: #5776a7;
   z-index: 1000;
   overflow-y: auto;
@@ -119,13 +127,11 @@ body {
   background-color: rgb(114, 136, 167);
 }
 
-/* Highlight Styles (only one selected) */
 .sidebar-btn.selected-sky { background-color: #0ea5e9; color: black; }
 .sidebar-btn.selected-cyan { background-color: #06b6d4; color: black; }
 .sidebar-btn.selected-yellow { background-color: #facc15; color: black; }
 .sidebar-btn.selected-red { background-color: #ef4444; color: black; }
 
-/* Main Content */
 .main-content {
   flex: 1;
   padding: 32px;
@@ -135,8 +141,8 @@ body {
 
 .main-scroll-area {
   position: absolute;
-  top: 60px; /* offset for top bar */
-  left: 220px; /* offset for sidebar */
+  top: 60px;
+  left: 220px;
   right: 0;
   bottom: 0;
   overflow-y: auto;
@@ -194,7 +200,7 @@ body {
   background-color: #3c4e70;
   color: white;
   font-weight: bold;
-  border-left: 4px solid #facc15; /* Optional: gold highlight */
+  border-left: 4px solid #facc15;
 }
 
 .sidebar-btn.active-sky {
@@ -231,14 +237,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5em;
-  justify-content: center; /* 👈 center align */
+  justify-content: center;
 }
 
 .experiment-toggle {
   position: relative;
   display: inline-flex;
   align-items: center;
-  background: #2e2e2e; /* black background */
+  background: #2e2e2e;
   border-radius: 100px;
   padding: 4px;
   font-size: 14px;
@@ -264,7 +270,6 @@ body {
   display: none;
 }
 
-/* Indicator base */
 .experiment-toggle-indicator,
 .experiment-toggle-triple-indicator {
   position: absolute;
@@ -277,7 +282,6 @@ body {
   z-index: 1;
 }
 
-/* Optional: highlight selected label text */
 .experiment-toggle input[id$="-a"]:checked ~ label[for$="-a"],
 .experiment-toggle input[id$="-b"]:checked ~ label[for$="-b"],
 .experiment-toggle input[id$="-c"]:checked ~ label[for$="-c"] {
