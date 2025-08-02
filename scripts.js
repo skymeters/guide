@@ -60,7 +60,7 @@ class Toggler {
     if (description) {
       const desc = document.createElement("div");
       desc.textContent = description;
-      desc.style.color = "#ccc";
+      desc.style.color = "white";
       desc.style.fontSize = "14px";
       desc.style.textAlign = "center";
       desc.style.whiteSpace = "nowrap";
@@ -73,6 +73,7 @@ class Toggler {
 
     const uid = Math.random().toString(36).substr(2, 6);
     const name = `toggle-${uid}`;
+    this.name = name;
 
     // HTML structure
     let html = `
@@ -145,6 +146,18 @@ class Toggler {
     indicator.style.transform = `translateX(${left}px)`;
   }
 
+  set(value) {
+    const suffix = value === 1 ? "b" : value === 2 ? "c" : "a";
+    const radioId = `${this.name}-${suffix}`;
+    const radio = document.getElementById(radioId);
+    if (radio) {
+      radio.checked = true;
+      radio.dispatchEvent(new Event('change'));
+    } else {
+      console.warn("Radio not found:", radioId);
+    }
+  }
+
   getElement() {
     return this.wrapper;
   }
@@ -200,6 +213,14 @@ class DropDown {
     outerWrapper.appendChild(select);
     this.wrapper = outerWrapper;
     this.stateRef.value = 0;
+  }
+
+  set(value) {
+    const select = this.wrapper.querySelector("select.custom-dropdown");
+    if (select) {
+      select.value = value;
+      select.dispatchEvent(new Event('change'));
+    }
   }
 
   getElement() {
@@ -534,7 +555,7 @@ function renderCategoryButtons(mode) {
       wisdomOptionsBox.appendChild(wisdomOptions);
       container.appendChild(wisdomOptionsBox);
 
-            // Add Max Wisdom and Max Daeman buttons
+      // Add Max Wisdom and Max Daeman buttons
       const controlButtonRow = document.createElement("div");
       controlButtonRow.style.display = "flex";
       controlButtonRow.style.justifyContent = "center";
@@ -545,17 +566,12 @@ function renderCategoryButtons(mode) {
       btnMaxWisdom.textContent = "Max Wisdom";
       btnMaxWisdom.className = "right-button";
       btnMaxWisdom.onclick = () => {
-        // Set all wisdom sources to ON (value = 1)
-        mythicguardian.value = 1;
-        eman8.value = 1;
-        cookieBuff.value = 1;
-        enchantingPot.value = 1;
-        riftNecklace.value = 1;
-        quantum5.value = 1;
-
-        // Force refresh UI and state
-        updateWisdom_Ench();
-        updateChance_Ench();
+        toggle1.set(1);
+        toggle2.set(1);
+        toggle5.set(1);
+        toggle6.set(1);
+        toggle7.set(1);
+        toggle8.set(1);
       };
 
       const btnMaxDaeman = document.createElement("button");
@@ -563,7 +579,9 @@ function renderCategoryButtons(mode) {
       btnMaxDaeman.className = "right-button";
       btnMaxDaeman.onclick = () => {
         daeman.value = 10;
-        pity(); // Update table
+        if (dropdown1 && typeof dropdown1.set === "function") {
+          dropdown1.set(10);
+        }
       };
 
       controlButtonRow.appendChild(btnMaxWisdom);
@@ -643,3 +661,7 @@ function formatModeName(mode) {
     default: return mode.charAt(0).toUpperCase() + mode.slice(1);
   }
 }
+
+window.addEventListener("DOMContentLoaded", () => {
+  selectLeftTab('experiment');
+});
