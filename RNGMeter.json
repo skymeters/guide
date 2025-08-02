@@ -1,0 +1,2744 @@
+{
+    "Experiment": {
+        "[Lvl 1] Guardian": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 150000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMDIzNzEyOTQxOCwKICAicHJvZmlsZUlkIiA6ICJmNGMyY2FkNzBhY2U0Y2U2ODY3ODY5ZDBiNjUzYTk4YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZGlhbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMjEwMjU0MzQwNDViZGE3MDI1YjNlNTE0YjMxNmE0Yjc3MGM2ZmFhNGJhOWFkYjRiZTM4MDk1MjZkYjc3ZjlkIgogICAgfQogIH0KfQ=="
+        },
+        "Fire Protection VI": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§bRare",
+            "xpRequired": 150000
+        },
+        "Giant Killer VI": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 150000,
+            "skullTexture": null
+        },
+        "Drain IV": {
+            "locked": false,
+            "id": "red_flower",
+            "oddsTier": "§bRare",
+            "xpRequired": 150000
+        },
+        "Protection VI": {
+            "locked": false,
+            "id": "diamond_chestplate",
+            "oddsTier": "§bRare",
+            "xpRequired": 150000
+        },
+        "Titan Killer VI": {
+            "locked": false,
+            "id": "dragon_egg",
+            "oddsTier": "§bRare",
+            "xpRequired": 150000
+        },
+        "A Beginner's Guide to Pesthunting": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczMTk0NzgwMDU1NywKICAicHJvZmlsZUlkIiA6ICI3YjA5ZDg5NWQyYjc0NTU3YmM0YTkzNWYyNjU0NWNjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJwbGFuZUdvQnJyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM4YTdjOWUwYzFkYWI4OWUxNGI3ODhkOTYxNTdhYjAxNTIxMzZmOGZkN2EyM2Q2ZGIzZWViZTU1NWQ0NDhlYzMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Severed Pincer": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczOTY2NjM2MDYxMSwKICAicHJvZmlsZUlkIiA6ICIxNTUyNmU1OGZhOWE0NjBmODhhNmZhNjk1M2RlNjgzNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQaWVkcml0YTE3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlMWUwNzAxZjFmOWU5NzQ3NjVlNGYyYTdjMzNhOTQ1OGM1OTgzMzQ0MDE1MzhkYzlmMjFmNWVkN2UzNWY3OWEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Chance V": {
+            "locked": false,
+            "id": "glowstone",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Thunderlord VII": {
+            "locked": false,
+            "id": "anvil",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Ensnared Snail": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODc1NzgzNTc2MSwKICAicHJvZmlsZUlkIiA6ICJjNDIzYjQwMWZiOGU0ODc3YjMzMmVmMjhiZDdlZGZmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFjdGlvbkJyaW5lWVQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ1MzJiN2UwZmJkOTc2ZDU1OWZiYjIxOGQ5ZjRlNTNjOTM1NGY2OGIxZjM2M2MwNDgyMTI3MDkyNzI0Mjc0ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Giant Killer VII": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": null
+        },
+        "Golden Bounty": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA1MjkwOTYyMywKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGU2ZTEwYTllZjFiMmNkZDk5ODU1NzU1NGIyMDlmMzY5YWRhN2JjNTBiNDdjODFlZDE0YWIyNjMyZGFiMzgzNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Critical VII": {
+            "locked": false,
+            "id": "golden_sword",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Snipe IV": {
+            "locked": false,
+            "id": "apple",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Life Steal V": {
+            "locked": false,
+            "id": "nether_wart",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Gold Bottle Cap": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczOTg4ODEyNzI3MSwKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY5Njk4ZmQ5MmZiMTQ4MjdhZjk3ZTU0YTNmMjhmNWUyNjg1ZDdlOTRiZDEyOGMwYzI3ZjI1OWRmOTk2NzE3YyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Looting V": {
+            "locked": false,
+            "id": "wheat",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "First Strike V": {
+            "locked": false,
+            "id": "speckled_melon",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Fire Protection VII": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Thunderbolt VII": {
+            "locked": false,
+            "id": "diamond_block",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Cubism VI": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Triple-Strike V": {
+            "locked": false,
+            "id": "lead",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Smite VII": {
+            "locked": false,
+            "id": "rotten_flesh",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Chain of the End Times": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczOTY2NDM4ODI2NCwKICAicHJvZmlsZUlkIiA6ICJlZGUyYzdhMGFjNjM0MTNiYjA5ZDNmMGJlZTllYzhlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0aGVEZXZKYWRlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzZDliYzYyOTRlY2I4NWQ5YzRhZjY2MTM2MDI3ZmFmNjc0MTNmMWRiYWJiZTFiNmRmZWUyODkwODNmYzIwNDkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Drain V": {
+            "locked": false,
+            "id": "red_flower",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Blast Protection VII": {
+            "locked": false,
+            "id": "iron_leggings",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Ender Slayer VII": {
+            "locked": false,
+            "id": "ender_pearl",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Cleave VI": {
+            "locked": false,
+            "id": "melon_seeds",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Octopus Tendril": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDA3NTYzNTk4NiwKICAicHJvZmlsZUlkIiA6ICIzNmU5MTE1YzBjYzc0ZjhkOTdmOGFjNjA1ZGMxNGVkYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYXJnaVYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJmNTgyODNmZmNhOGJkYzU5NDM2ZTgzZDk0ZTlmMTM0NDI2MzE2Yjk5YmFiNWI5YWY5MGRmZmRiMDgyYTA1NiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Titan Killer VII": {
+            "locked": false,
+            "id": "dragon_egg",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Luck VII": {
+            "locked": false,
+            "id": "leather",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Execute VI": {
+            "locked": false,
+            "id": "bone",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Power VII": {
+            "locked": false,
+            "id": "bow",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Troubled Bubble": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MDY3NTY1MTY4MCwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJjaXhkZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZGZjYzUzMGFkNGY2NDVhMjAxYWJjMDU5MTJmMTk0ODYyNjExYzMzNzM5YTA4MjZhOGJiOWFkMGQ5Yjk4Mzc1IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Projectile Protection VII": {
+            "locked": false,
+            "id": "leather_helmet",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Growth VII": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Sharpness VII": {
+            "locked": false,
+            "id": "diamond_sword",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Venomous VI": {
+            "locked": false,
+            "id": "magma_cream",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Protection VII": {
+            "locked": false,
+            "id": "diamond_chestplate",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Prosecute VI": {
+            "locked": false,
+            "id": "sea_lantern",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 500000
+        },
+        "Nadeshiko Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 2500000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTI1OTE3NiwKICAicHJvZmlsZUlkIiA6ICI3YjA5ZDg5NWQyYjc0NTU3YmM0YTkzNWYyNjU0NWNjNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJwbGFuZUdvQnJyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM0ZTVmMTNiZDdmMmI5ZTVkZDhjMDBjMWQyNDU5OTVkMmIzM2JhNGY4NDFlM2MzN2RhNjYzOTk3YWIwMTI1MWYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        }
+    },
+    "Zombie": {
+        "Matcha Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 75000000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTIxOTgwMCwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NjQwMmI3ZjcyOGZmMjk5ZGYxMjM4NzIxMjY0MTMxODYwZjIzOWNkODAxNWUzZjAyNjAwNTE5NzMwN2Q1M2VhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Foul Flesh": {
+            "locked": false,
+            "id": "coal",
+            "oddsTier": "§9Occasional",
+            "xpRequired": 3093
+        },
+        "Revenant": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 36867,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1NjgwMzY3MjYwNjYsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmYzAxODQ0NzNmZTg4MmQyODk1Y2U3Y2JjODE5N2JkNDBmZjcwYmYxMGQzNzQ1ZGU5N2I2YzJhOWM1ZmM3OGYifX19"
+        },
+        "◆ Pestilence Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 8007,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDEyOTIyMiwKICAicHJvZmlsZUlkIiA6ICIxNzM1MGE5OWQ3MzQ0NDBjYTY0YzJjMDU3YTNjMWM4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaWxkZWRoZXJvNTY5MSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOGM0ODExMzk1ZmJmN2Y2MjBmMDVjYzMxNzVjZWYxNTE1YWFmNzc1YmEwNGEwMTA0NTAyN2YwNjkzYTkwMTQ3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Undead Catalyst": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 24750,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MTk5OTUxMiwKICAicHJvZmlsZUlkIiA6ICIxNmQ4NjI4NzYzMWY0NDY2OGQ0NDM2ZTJlY2IwNTllNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXphVG91cm5leSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NWI4NzE1MDZmNWEyOTUwMjY1Nzk2MzRlZTUxNzU1YjI5YWJlMjkwN2NiNDI0OGVhNWNjMzY0MDhmY2U2OTI4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Enchanted Book (Smite VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 62434
+        },
+        "Beheaded Horror": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 312175,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMjIzNjA5NzQ0NCwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYmFkOTllZDNjODIwYjc5NzgxOTBhZDA4YTkzNGE2OGRmYTkwZDk5ODY4MjVkYTFjOTdmNmYyMWY0OWFkNjI2IgogICAgfQogIH0KfQ=="
+        },
+        "Revenant Catalyst": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 49500,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1Nzg2ODE0NDkwMzMsInByb2ZpbGVJZCI6IjIyZmQ2N2IxN2U2NzQ1ZmI5MmU3NDc3MTIzNDMwNTE4IiwicHJvZmlsZU5hbWUiOiJyYWtldGVuYmVuIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iODhjZmFmYTVmMDNmOGFlZjA0MmExNDM3OTllOTY0MzQyZGY3NmI3YzFlYjQ2MWY2MThlMzk4Zjg0YTk5YTYzIn19fQ=="
+        },
+        "◆ Snake Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 333500,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTMwNjAwOTQ3NywKICAicHJvZmlsZUlkIiA6ICI1ZjQ5N2JmZDQwODU0NjRhOTNiMTRjN2Y3OTc5ZGYyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUVEs5ODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM0YTY1YzY4OWIyZDM2NDA5MTAwYTYwYzJhYjhkM2QwYTY3Y2U5NGVlYTNjMWY3YWM5NzRmZDg5MzU2OGI1ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Festering Maggot": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 368674,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODc2MTE3MDUxOSwKICAicHJvZmlsZUlkIiA6ICI4ZjllYTBhNWJhOGE0NTNkYTgzNTBmYjRmNzVmOTJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDeWJlck1pbm55IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U4MjhhZjNmYTgwMTU0Y2NlZTEzNWM2NGNkNTc0MTJmZWRhODk1Y2QxZDIxZjI0MGQ4NzY3NzNiYTlkNmE1NmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Revenant Viscera": {
+            "locked": false,
+            "id": "cooked_porkchop",
+            "oddsTier": "§9Occasional",
+            "xpRequired": 3686
+        },
+        "Scythe Blade": {
+            "locked": false,
+            "id": "diamond",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 491566
+        },
+        "Enchanted Book (Smite VII)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 1053357
+        },
+        "Shard of the Shredded": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 921687,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMjEyNDkwMzA5MSwKICAicHJvZmlsZUlkIiA6ICJiNjM2OWQ0MzMwNTU0NGIzOWE5OTBhODYyNWY5MmEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JpbmhvXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMTA4NTdlODcyNzExZTdlNjkyNWM5ZWYxMTE1MzUzYjQ3ZjU4ZWYwN2ViNWMyZDU2NWYxZjg2MDIzZTdhMjg0IgogICAgfQogIH0KfQ=="
+        }
+    },
+    "Spider": {
+        "Brick Red Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 75000000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MDk0Njc4NSwKICAicHJvZmlsZUlkIiA6ICJlYTA4ZjhlZTdiOTg0YmFlYWM3N2JhYzk3ZWVkYzE4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXlkZXJUTSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZTExMzE5OGE1NTg5NDZhZTM2ZTg4MGRiOWM1MTg1NzIyMWIyY2JlYzA5ZjRmZjUxOTJlMTM4NWU4ZjhlYzJhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Toxic Arrow Poison": {
+            "locked": false,
+            "id": "dye",
+            "oddsTier": "§9Occasional",
+            "xpRequired": 3277
+        },
+        "◆ Bite Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 7657,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDQ3MDQ3NywKICAicHJvZmlsZUlkIiA6ICIzOTVkZTJlYjVjNjU0ZmRkOWQ2NDAwY2JhNmNmNjFhNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFyZXN0ZXZlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzYTFhZDRmY2M0MmZiNjNjNjgxMzI4ZTQyZDYzYzgzY2ExOTNiMzMzYWYyYTQyNjcyOGEyNWE4Y2M2MDA2OTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "◆ Darkness Within Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 74880,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMzQyNTYyNywKICAicHJvZmlsZUlkIiA6ICI2ZjhlYWI1MTVmNTc0MmRhOWYxZDYzMzY1ODAxMDU4YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaW5kZXJGb3hfMjAwNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iOGQwNWZkNGZjNmZkMWNiMzJjY2JhYmU4NzA0MGEyOTZiNTE0MjdiNGZhNWNlNTdiZTViNDExZDg2ZTIzNGM4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Spider Catalyst": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 24250,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1ODMxMjMyODkwNTMsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlYjBlZDhmYzIyNzJiM2QzZDgyMDY3NmQ1MmEzOGU3YjJlOGRhOGM2ODdhMjMzZTBkYWJhYTE2YzBlOTZkZiJ9fX0="
+        },
+        "Tarantula Silk": {
+            "locked": false,
+            "id": "web",
+            "oddsTier": "§9Occasional",
+            "xpRequired": 3510
+        },
+        "Enchanted Book (Bane of Arthropods VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 120269
+        },
+        "Tarantula Catalyst": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 117025,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODMyNDc4Mzk2MiwKICAicHJvZmlsZUlkIiA6ICIxMzEzZGFmMDc2OGQ0YmQ5Yjc1ODJkMGI1NWUwZGQxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW50aWNjaGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRiZDY2MTdjMTNlOTA0OTlkMWM4ZDE1NjRjZGFlN2E5ODY1NTk0ZjMzYmYwYmEwNGM5NDFiMjQ5YWEzZjMwZDQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Fly Swatter": {
+            "locked": false,
+            "id": "golden_shovel",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 234050
+        },
+        "Vial of Venom": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 351075,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODY4NzQwMzg4NywKICAicHJvZmlsZUlkIiA6ICJhYWMxYjA2OWNkMjE0NWE2ODNlNzQxNzE4MDcxMGU4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJqdXNhbXUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc4MDY3YzAzNGRhN2JmZTQ5ODhlMGJmNTE1YjA0OTlmOGFjMmM5OTJmZDdmZDA2MDZmYTAyMjU5ZjVhOGM2ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Tarantula Talisman": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 234050,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzOTM2NTg4NiwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmMGYxMjNmMTBjOWExOTY2NWQ1NTYxNzkyZDJjOWFlYTA2NzQxOGEwZjkyZGMyMDQ5MGRhZGU3MGVkMzhjYjEiCiAgICB9CiAgfQp9"
+        },
+        "Digested Mosquito": {
+            "locked": false,
+            "id": "rotten_flesh",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 702150
+        },
+        "Shriveled Wasp": {
+            "locked": true,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 702150,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODU4NDU2NTIxNCwKICAicHJvZmlsZUlkIiA6ICI5YjhhN2NlMmJlYjI0NjdkYTJjZmU4MzQ1YTNjOTZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFyR2FtZXJTaGFsb20iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRkYzkwM2JhODBmNDQwMDBmZWNlZjdjY2NmMjdmYWU2ZjBkY2IyZDA5NGM1Njc1OTJiZjJjMWRiNGIyZTk3MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Ensnared Snail": {
+            "locked": true,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 1170250,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODc1NzgzNTc2MSwKICAicHJvZmlsZUlkIiA6ICJjNDIzYjQwMWZiOGU0ODc3YjMzMmVmMjhiZDdlZGZmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFjdGlvbkJyaW5lWVQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ1MzJiN2UwZmJkOTc2ZDU1OWZiYjIxOGQ5ZjRlNTNjOTM1NGY2OGIxZjM2M2MwNDgyMTI3MDkyNzI0Mjc0ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Primordial Eye": {
+            "locked": true,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 3510750,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODI0MzI4OTc5MSwKICAicHJvZmlsZUlkIiA6ICJlMjc5NjliODYyNWY0NDg1YjkyNmM5NTBhMDljMWMwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaVp6YVhQIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FhZDQ0YjRjNDYzNTY0OGQ1YmQyMTIxMGRjYjZiMzE0ZDQ4OWRjZDc1YmM3OTMyYzU2OTBlMTJkODg5ODJhMzQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        }
+    },
+    "Wolf": {
+        "Celeste Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 75000000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MDk5NzIyMywKICAicHJvZmlsZUlkIiA6ICJjZjc4YzFkZjE3ZTI0Y2Q5YTIxYmU4NWQ0NDk5ZWE4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXR0c0FybW9yU3RhbmRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwMjg5MTgxMmE1MmVkNmVkNDM3NjcyYjNlNmIyMTQ0OTViOTY1MTgwMGFlZjg3NTQ0YWM1YmQxOTM3NTgyOTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Hamster Wheel": {
+            "locked": false,
+            "id": "trapdoor",
+            "oddsTier": "§9Occasional",
+            "xpRequired": 3000
+        },
+        "◆ Spirit Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 7917,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDE1NTc5MSwKICAicHJvZmlsZUlkIiA6ICI4YjA2ZmU5ZGNjNjg0NDNmYWNmM2QzODA0NWNkNTMyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0aWVsY3ZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M3MzhiOGFmOGQ3Y2UxYTI2ZGM2ZDQwMTgwYjM1ODk0MDNlMTFlZjM2YTY2ZDdjNDU5MDAzNzczMjgyOTU0MmUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Critical VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 61634
+        },
+        "Furball": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 30637,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODM4MDA4NCwKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU0ODY3OGU0NGY5ZjYyZDM1MGMyNGEzZTAxOTA3YzA1NDViZWY2NjgxMDU5MDMzM2U2NTRiZDkzMWMxODdkYiIKICAgIH0KICB9Cn0="
+        },
+        "Red Claw Egg": {
+            "locked": false,
+            "id": "spawn_egg",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 410900
+        },
+        "◆ Couture Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 219833,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMzU0NzI1NywKICAicHJvZmlsZUlkIiA6ICJhNTdmZDE5MGZmM2U0YjBkYTEzMmY2OGUzOTU3ZjViMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4SGFubmFoNyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MzRmYjMyMDMyMzNlZmJhZTgyNjI4YmQ0ZmNhNzM0OGNkMDcxZTViN2I1MjQwN2YxZDFkMjc5NGUzMTc5OWZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Grizzly Salmon": {
+            "locked": false,
+            "id": "fish",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 880500
+        }
+    },
+    "Enderman": {
+        "Byzantium Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 75000000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MDk1ODAyNiwKICAicHJvZmlsZUlkIiA6ICJmZDJlZDMzMzI0Mjk0ZThmOWVlZGNiN2RhMWJiNzlkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkcmFtYWdnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlmMThjMDVlMTJjZmE0MTA4Y2UwZDlhYWY5MzMyYWMzZTI3Yzg4M2U4ZjRlZDIzODM0OWZlN2ZjZDBiYTU5NzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Twilight Arrow Poison": {
+            "locked": false,
+            "id": "dye",
+            "oddsTier": "§9Occasional",
+            "xpRequired": 3300
+        },
+        "◆ Endersnake Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 9438,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMzYzMjkyMiwKICAicHJvZmlsZUlkIiA6ICI1ZjU5NmViY2JlOTQ0NmQxYmI0M2JlNGYzZjRiOGJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWlsMHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzYTlhY2JiN2QzZDQ5YjFkNTRkMjYxMTExMDRkMGRhNTdkOGI0YWIzNzg4NWI0YmJkMjQwYWM3MTA3NGNhZDIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Summoning Eye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 74250,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTg3NzExNDUyMSwKICAicHJvZmlsZUlkIiA6ICI0ZDcwNDg2ZjUwOTI0ZDMzODZiYmZjOWMxMmJhYjRhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaXJGYWJpb3pzY2hlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QzZDQ4MjI0YWZmODUzNTdjMzc0NTk1MWE0ZDg1ZTkyNGExMmMyNTgwZGMzYWQyODU0Y2JjZjNjMTJhZWE0ZDciCiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Mana Steal I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": 11183
+        },
+        "Transmission Tuner": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 22366,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjAxNzkwNSwKICAicHJvZmlsZUlkIiA6ICIxMWNkOTMzYmU1OGQ0MzYxOTdlYTc1MjU4MzM2Mzg0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb29ubGl0TUMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI2MjYxNzhiODRkYmQzOTRjZjI0MDk0NjcyMTAyODJlNTIxMDMyMTc2ZGIyMWIyODFmZGM4YWU5Y2JlMmIyZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Null Atom": {
+            "locked": false,
+            "id": "wooden_button",
+            "oddsTier": "§bRare",
+            "xpRequired": 10120
+        },
+        "Hazmat Enderman": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 32202,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTQxNzMzNTczMiwKICAicHJvZmlsZUlkIiA6ICJlM2I0NDVjODQ3ZjU0OGZiOGM4ZmEzZjFmN2VmYmE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5pRGlnZ2VyVGVzdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MWU3Mjg5MGE3OWU1MDBjZjEzYTk3ZDEzNzRjNWFjOGE0ZjE1YTllMGQ2ODg1OTk3ZmM2ZjJlM2MxMTI1NGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Pocket Espresso Machine": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 128809,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5Mzc3MTY1NDc2MCwKICAicHJvZmlsZUlkIiA6ICJkN2Y4OTAyMWMxNmQ0ZjFhODg3ODQyNDQyZjc3NGI0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYW5kYXRvSG9wZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NjYwNzBjZTAzYTU0NWVlNGQyNjNiY2YyN2YzNjMzOGQyNDlkN2NiN2EyMzc2ZjkyYzE2NzNhZTEzNGUwNGI2IgogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Smarty Pants I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 28338
+        },
+        "◆ End Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 75505,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODYzNTU3NDI0OSwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IxMWZiOTBkYjdmNTdiZWI0MzU5NTQwMTNiMWM3ZWY3NzZjNmJkOTZjYmYzMzA4YWE4ZWJhYzI5NTkxZWJiZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Handy Blood Chalice": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 283380,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MjMzNTQwMTA2OCwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YjJjYTExMTUwNGRkZTUwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzMWNkN2VkNGU0YmYwN2MzZGZkOWJhNDk4NzA4ZTczMGU2OWQ4MDczMzVhZmZhYmMxMmQ4N2ZmNTQyZjZhODgiCiAgICB9CiAgfQp9"
+        },
+        "Sinful Dice": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 108992,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNjQ2MjgwNTg4MywKICAicHJvZmlsZUlkIiA6ICJkYmNlZjMyZjI5ZDc0Y2UzOTUzOWMwYjBhMTE1YjZiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJyYW1waXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzViN2E4ODRmZWE3OTJiODNiMjdiMDY0YmU3ZTQzNjAyMzY4MWNmZTQyNTEwZDIyOTdkNDhkZmRkNzVmZmIyOTYiCiAgICB9CiAgfQp9"
+        },
+        "Exceedingly Rare Ender Artifact Upgrade": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 1771125,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjQzNTAxODQ5MywKICAicHJvZmlsZUlkIiA6ICIwZjczMDA3NjEyNGU0NGM3YWYxMTE1NDY5YzQ5OTY3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmVfTWluZXIxMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1OTIzMWE5NDY5ODdlYTUzMTQxNzg5YTA5NDk2ZjA5OGQ2ZWNhYzQxMmEwMWUwYTI0YzkwNmE5OWZkYmQ5YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Void Conqueror Enderman Skin": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 302020,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1ODY5MTE5MTcyODAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhmZmY0MWUxYWZjNTk3YjE0Zjc3YjhlNDRlMmExMzRkYWJlMTYxYTE1MjZhZGU4MGU2MjkwZjJkZjMzMWRjMTEifX19"
+        },
+        "Etherwarp Merger": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 118075,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjA3MTMyOCwKICAicHJvZmlsZUlkIiA6ICI2NWUxN2M2Njk5NDU0ODQxYTdhNjc4ZWY2YzBhNGY1ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbGRSZWRUViIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZTUzMTRmNDkxOTY5MWNjYmY4MDc3NDNkYWU0N2FlNDVhYzJlM2ZmMDhmNzllZWNkZDQ1MmZlNjAyZWZmN2Y2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "◆ Enchant Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 1078642,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY3MDQ3OTgyMTg3NCwKICAicHJvZmlsZUlkIiA6ICJmODFhNzJhZWZjMjY0MjU0YTQ5NzE0OWYzMjJiZjJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXJsYW5fODgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlmZmFjZWM2ZWU1YTIzZDljYjI0YTJmZTlkYzE1YjI0NDg4ZjVmNzEwMDY5MjQ1NjBiZjEyMTQ4NDIxYWU2ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Ender Slayer VII)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 3542250
+        }
+    },
+    "Vampire": {
+        "Enchanted Book Bundle": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 12525,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1MTgyODU4NTc4NDQsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U1YmUyMmI1ZDRhODc1ZDc3ZGYzZjc3MTBmZjQ1NzhlZjI3OTM5YTk2ODRjYmRiM2QzMWQ5NzNmMTY2ODQ5In19fQ=="
+        },
+        "◆ Soultwist Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§9Occasional",
+            "xpRequired": 1912,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY4MTUxOTM1Mjc5NCwKICAicHJvZmlsZUlkIiA6ICI4N2YzOGM1MWE4Yzc0MmNmYTY2YTgxNWExZTI2NzMzYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWR3YXJzQ3V0aWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVmZmRmYmQ0OTBmYzczMTBkNjFhMWM0YzM1YTRlMGNkMmY5ZmNjYzEyMzljNmE0YmNkN2RlYzA1ZTI1ZWE2NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Bubba Blister": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 2250,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY3MjQyMjMxMTU2NywKICAicHJvZmlsZUlkIiA6ICJlOWRlMDE0NjExZDI0NGY5OTVjNmNiMjhkMDk5MWExNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGl6YWJldGhUcnVzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Y2I1NzI3Yjk4NmMzNmUwNzU4MjE0OGI4ODYxMDJjZjgwNzBiMGVlM2FhMzc3MWIyNDY0MzkzZjU4OGE4MzJkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Fang-tastic Chocolate Chip": {
+            "locked": false,
+            "id": "cookie",
+            "oddsTier": "§bRare",
+            "xpRequired": 2250
+        },
+        "Guardian Lucky Block": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 3600,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjAxOTE1NDMzNiwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZlZjIxYzg1NzVhMzA2OTk5MTQyYjA4MTRmMTYzY2I0MDNlYzBmYTUxYmVjYTgxZGQwNzRiMDJkZmUyNjZhZiIKICAgIH0KICB9Cn0="
+        },
+        "McGrubber's Burger": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 18450,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MTE2Mzc3MTMxMCwKICAicHJvZmlsZUlkIiA6ICJkZjY2OWIyOGFmNWE0MTNjODFhNjcwOGQ0ZDIyM2FlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYW5nX3FpbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDMzZGRiOTJjYjZiM2E3OTI4MGI4YmRjZWQ4OTc2YWVhYjEzYTRiZmZlYWVmMmQ0NmQ4MjhiZDkxZGVlMGYzZSIKICAgIH0KICB9Cn0="
+        },
+        "Unfanged Vampire Part": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 18450,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjM0MTc0MiwKICAicHJvZmlsZUlkIiA6ICJhYWZmMDUwYTExOTk0NzM1YjEyNDVlNDk0MGFlZjY4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYXN0SW1tb3J0YWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE4ODNlYjVlNDdjZWVlZDAyMDYzZmI4ZWMwZjc1ODQ3MTdhYzhjNzk1MjFhZTMyY2YwNjA2ZWJjZjc0MGU3MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        }
+    },
+    "Blaze": {
+        "Flame Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 75000000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTA5ODA0MSwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwNzIyNTBjNjIzN2ZiYTRmN2FkNzk1YzU0YzAxYzAyNTQyZTJkNzk1MGQzOTIwMzI4MmUwY2M1MTA5NWRlZGUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Blaze Powder": {
+            "locked": false,
+            "id": "blaze_powder",
+            "oddsTier": "§9Occasional",
+            "xpRequired": 2351
+        },
+        "◆ Lavatears Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 21660,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDcyMTAxMiwKICAicHJvZmlsZUlkIiA6ICJmNmYxY2IxMmYzNDU0MDRlYjZlNjU2NGE2ZDlmMjU2NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdXJlbGl1c0dlbWluaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzhjY2Q1Zjg2M2Q4MmJiMDk3YjkyNmJjNWY0Y2NhOTdiMTlmNDZlMTFiM2EzYTU5ZDAwMWFkYjg5ODg2NzczIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Wisp's Ice-Flavored Water I Splash Potion": {
+            "locked": false,
+            "id": "potion",
+            "oddsTier": "§bRare",
+            "xpRequired": 14270
+        },
+        "Bundle of Magma Arrows": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 4756,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc0OTYwNDQ3NCwKICAicHJvZmlsZUlkIiA6ICIyNDIyZWM1ZWFiZDM0MDQ5YmYzNjBlOTFiMTFhMmFmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXJnZWJyZWFzdHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRkZmFmZTdhYjhlODY5NWE1NmQzMWNjODY2NjcwNWQ2MWVkOTNiMWM1MTkxMGMyMmY0YTk1MGViNTVmMDRkZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Mana Disintegrator": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 10192,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc5NzgyNzMyNCwKICAicHJvZmlsZUlkIiA6ICI3NTA5NzZmODRmMDE0NWFhYTc0MzAwYWJhMzc5MTIzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwY2hlYXRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxNTY1YzFjMjY1ZjUwMzk4YzA2NDZhOWI3ZDY0Mjg5NTIyYzBiMDg5MDkxYmE1YTA0ZjFkMThiYWE4NjBkODUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Scorched Books": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 17837,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODQxNjk4MSwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2ZWU3ZTkwNjY4NmFiZDVlYzE5MmIwNzkzMTRjNDVmMWZiODE3MWQ5ZTEzY2FhNGNmOWY2M2FmYzIyNjNmZDUiCiAgICB9CiAgfQp9"
+        },
+        "Kelvin Inverter": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 14270,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY4NTkwODkzNTIxMywKICAicHJvZmlsZUlkIiA6ICIxZGQ4YmU5YTljMDc0OGU4OTZjZjgwNDNjNTMxMWEzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaWdhQ2F0VG95IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0NWJhNGIxMGVkNzZjM2YxM2Q0NmJjOTlmMjRiNTc0M2U5MmRkYmQ2ZjY3MTZjMzg1YzA4MzA1ZmRiYzk5OWUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Gabagool Distillate": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 10649,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc0OTAwMzY1MSwKICAicHJvZmlsZUlkIiA6ICI1NTZjNDNmOWJmZjU0MjI1OTI0NDU5M2EwN2QyYzE1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaW50b2tsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FmZDIzMzNiNWVlNDllYzVlM2FmNGM2ZjQ1NTUwYmM0NGY4OGJmYjRhZDBhYjI3YmFhMzM5YTA0Yjk0Mzk3YTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Scorched Power Crystal": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 12558,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc5NzQwMDEzNCwKICAicHJvZmlsZUlkIiA6ICI0NDA3OTk4M2Q0ZTU0MTZiYmY4NzAzNDU2YzczYTc5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBeWFhbjEzMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMDk5ZDRlMjVhNTY5ZTJkMDE4YmQ4ZDdlMWE0MGFkMmNjYmM5YmQxZmQyZWQ0ODY4OGJjYzNmNjJhOTYyMTNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Archfiend Dice": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 37675,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMjczNTcwMSwKICAicHJvZmlsZUlkIiA6ICJiMTM1MDRmMjMxOGI0OWNjYWFkZDcyYWVhYmMyNTQ1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeXBrZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNmM2IwZTc0OGMwZjBhMzNiYTMzNDMyNzQ4MWMzNjQ2ZTE3NjBmNGVhZjcxMjVhNTJiOGIxNGZmM2E0MTRmIgogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Fire Aspect III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 32508
+        },
+        "◆ Fiery Burst Rune I": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 243675,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1Nzk5NDkxODg4NiwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ2MjBlNGUzZDNhYmZlZDZhZDgxYTU4YTU2YmNkMDg1ZDllOWVmYzgwM2NhYmIyMWZhNmM5ZTM5NjllMmQyZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "❂ Flawed Opal Gemstone": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": 14776,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MTk4MzkyNCwKICAicHJvZmlsZUlkIiA6ICI4YjA2ZmU5ZGNjNjg0NDNmYWNmM2QzODA0NWNkNTMyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0aWVsY3ZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VhZGMzYmNkZDdjNzAxYjYzZjhiOGI0YTk2ZTQyOTMxNmEwODM4ODY2OWQ5YTk4YzFhOTg3OTE3MjliOTYxZGYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Duplex I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 23220
+        },
+        "High Class Archfiend Dice": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 194939,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMjc5NTIzNCwKICAicHJvZmlsZUlkIiA6ICJjZjc4YzFkZjE3ZTI0Y2Q5YTIxYmU4NWQ0NDk5ZWE4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXR0c0FybW9yU3RhbmRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxMGIzMDc2YTZjODk5N2ZlNzI0Yzk2NmJhZTVmYmI0ODEwNWI1MGRjODIxNjYzOTJkOTU0YjQxOWFlZDAwZjYiCiAgICB9CiAgfQp9"
+        },
+        "Wilson's Engineering Plans": {
+            "locked": false,
+            "id": "paper",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 478058
+        },
+        "Subzero Inverter": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 478058,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjAzNzMzMywKICAicHJvZmlsZUlkIiA6ICJmZGRmY2M4NjZmNWQ0N2JiOWE1ZmIwYmRiMzViYjQyYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYWRpcmNhbnBlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4ZjgwOTkwOWE0ZDRjZGU3ZjJhNzlkOTk4MjA1ZTQ4MTRiY2JiN2Q0YmM2MDJhMWQ1ODI2MjI0YWUwMjE3ODYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        }
+    },
+    "F1": {
+        "Enchanted Book (Rejuvenate I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Necromancer's Brooch": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDU5MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YjZiZWFjNTczNjVjYWY0NmYwMzdmM2QyYTNhNDU3ZjZjYWZlNjQ3NTdiYWYxNGU4OTkzY2QyZGExOGNmZjciCiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Infinite Quiver VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Feather Falling VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Balloon Snake": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODI0MDc0MSwKICAicHJvZmlsZUlkIiA6ICI2ZDgwYjVkMjQyMGY0MWZkOTQxMjM4YzA3YzVlYzAxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQb05pWW8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUzMDg4ZGUzZWRmZDFiMTA5OGQ4ZDhmNTZmNTAwNGE4OTMwNTUxZTA2M2M3Nzg5MWZhMDA3MDNjZjAzMWI5OSIKICAgIH0KICB9Cn0="
+        },
+        "Bonzo's Mask": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1ODc5MDgzMDU4MjYsInByb2ZpbGVJZCI6IjJkYzc3YWU3OTQ2MzQ4MDI5NDI4MGM4NDIyNzRiNTY3IiwicHJvZmlsZU5hbWUiOiJzYWR5MDYxMCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MTZlY2JmNWI4ZGEwMGIwNWYzMTZlYzZhZjYxZThiZDAyODA1YjIxZWI4ZTQ0MDE1MTQ2OGRjNjU2NTQ5YyJ9fX0="
+        },
+        "Red Nose": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MzYxMTA5MzQ5MSwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Yjc0OTBiNzY5YzkwYjI5YzRkMDgzNzE1YTc1MmEwNTU4NzhjYzE5NTQzNDUxYWMzODdmODhmNzQ5MzQ1OTA2IgogICAgfQogIH0KfQ=="
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Bonzo's Staff": {
+            "locked": false,
+            "id": "blaze_rod",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Jerry I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        }
+    },
+    "F2": {
+        "Enchanted Book (Rejuvenate I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Necromancer's Brooch": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDU5MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YjZiZWFjNTczNjVjYWY0NmYwMzdmM2QyYTNhNDU3ZjZjYWZlNjQ3NTdiYWYxNGU4OTkzY2QyZGExOGNmZjciCiAgICB9CiAgfQp9"
+        },
+        "Adaptive Belt": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODI2MTU3NCwKICAicHJvZmlsZUlkIiA6ICIwOWQ3YmJjNGYxZmU0ZjlkYjRiZmE1MTY2NDA3OTcyYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJlemtkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcwYmY2ZDc2ZjJhMDNmMzE5ZmZmZTcyNWY4MmI4MGI5MjUyOTFlZmRhMzZkNGRiMjViYWNkN2VhODZhNjU3YyIKICAgIH0KICB9Cn0="
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Adaptive Blade": {
+            "locked": false,
+            "id": "stone_sword",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Red Scarf": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDY0NDAyNSwKICAicHJvZmlsZUlkIiA6ICIyNzZlMDQ2YjI0MDM0M2VkOTk2NmU0OTRlN2U2Y2IzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBRFJBTlM3MTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzMWExZWZlMzMyNjNmYTAwZWZkZjQ3OWNmNDBhMTFjMTMxNmRiMzIzYmM4ZDc4NzNmODk5N2U4ZTJmNzVkOSIKICAgIH0KICB9Cn0="
+        }
+    },
+    "F3": {
+        "Enchanted Book (Last Stand I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Rejuvenate II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Necromancer's Brooch": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDU5MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YjZiZWFjNTczNjVjYWY0NmYwMzdmM2QyYTNhNDU3ZjZjYWZlNjQ3NTdiYWYxNGU4OTkzY2QyZGExOGNmZjciCiAgICB9CiAgfQp9"
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Adaptive Helmet": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDAzOTAzMjUzOCwKICAicHJvZmlsZUlkIiA6ICI1MzgyNzM1OGIzOTc0ZmJiOTg0OTY5MWM5Yzg3NTA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPdmVyQmlnYm95MTIzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZjBkMzRhYWE3MTQzNzc5ODM3MDFjMWJiZTliM2Y2ZTdiMzBjYjM4NTcxYmMwYTJmZDc1NDFkN2VkYjE2MzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Adaptive Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Adaptive Chestplate": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Adaptive Leggings": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Jerry II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        }
+    },
+    "F4": {
+        "Enchanted Book (Last Stand I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Rejuvenate II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Spirit Wing": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NjAzODQyNTM5OSwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMjlhZDc2YzI0NTk5MTFjMmJiYWNkY2QwYTdiODJlMDgzNTU2N2UzZTUxMzRiMDVhNmY1YWY2NjlkZDg4YjgzIgogICAgfQogIH0KfQ=="
+        },
+        "Spirit Bone": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1NzE0OTg0NzUxNTYsInByb2ZpbGVJZCI6ImVkNTNkZDgxNGY5ZDRhM2NiNGViNjUxZGNiYTc3ZTY2IiwicHJvZmlsZU5hbWUiOiJGb3J5eExPTCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg0ODA1MTdhNDQ5N2NmN2NiZjFmYzVlZjhlZWViMTExMTliYTA3MzZkOTNkNTFiYzVlMWU2ZGE5MGU2OTgyNCJ9fX0="
+        },
+        "Spirit Stone": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTAxMjc4ODI0MywKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZmUwOThjNzM2NmZmYWJhYzQ4ZjdkNDY1MDI3MjEyZjZhNzdlZGQ3M2FjYWZjYWQyYzA4NzVmMTFhMDMxYjIiCiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Rend II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Spirit Sword": {
+            "locked": false,
+            "id": "iron_sword",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Spirit Shortbow": {
+            "locked": false,
+            "id": "bow",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Spirit Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "[Lvl 1] Spirit": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTg2MjAyNjE5OSwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhkOWNjYzY3MDY3N2QwY2ViYWFkNDA1OGQ2YWFmOWFjZmFiMDlhYmVhNWQ4NjM3OWEwNTk5MDJmMmZlMjI2NTUiCiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Ultimate Jerry II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        }
+    },
+    "F5": {
+        "Enchanted Book (Rejuvenate III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Last Stand II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Dark Orb": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTA2MTU4ODI0NSwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3YzQwMzZmODBiZjM2MDkxODBjN2M0YTk1Njg4NTNmZDgxNWYxNTRhZDg0MzhiOTJmMzg1MTAxOTgzNWIwNzAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Wisdom II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Overload I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Legion I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Lethality VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Shadow Assassin Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Shadow Assassin Helmet": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxOTM0NjY3MzMxNCwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMWFhMTRkZTljMTU4ZDM1MTM5NDljODVjYWJiOWUzNzg0OGI5ODRlYzNmYjViNDRhMzIxOWY0ZmI1OGEwMGRhIgogICAgfQogIH0KfQ=="
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Shadow Assassin Leggings": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Shadow Assassin Cloak": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODIwNzA1MywKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZhMjQzMTE0ODU3MmZlZDdiYzFlYWNmMGQyMjlkZGIyMTE1ZDFhMmNhMTgxZDMyM2QzZmNhNTIyNmU1MTZhMWQiCiAgICB9CiAgfQp9"
+        },
+        "Livid Dagger": {
+            "locked": false,
+            "id": "iron_sword",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Jerry III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Shadow Assassin Chestplate": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Warped Stone": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MjE0NjU0MzEyMywKICAicHJvZmlsZUlkIiA6ICJjOWRlZTM4MDUzYjg0YzI5YjZlZjA5YjJlMDM5OTc0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQVJfRGVjZW1iZXI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU0ZDQ4YWM3ZTY1YjkxNDY3OTA0ZjJmNGQxNTQ1NTY3NzZmZmE5Y2QyZDUyNmIxMmEwNDk5YmI1OWNjNjU2YzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Last Breath": {
+            "locked": false,
+            "id": "bow",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        }
+    },
+    "F6": {
+        "Enchanted Book (Rejuvenate III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Last Stand II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Swarm I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Necromancer Lord Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Giant Tooth": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NTU1NTcyNCwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmEyNjM2YTBmZDQwMzQ1Y2EyOTUxZmRhMDUzNDYwZTY2ZmFiNjNmM2ZjMjE3ODM3MTEzZTIwNDM1N2JiZjgyYiIKICAgIH0KICB9Cn0="
+        },
+        "Necromancer Lord Helmet": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDAxNDg2MiwKICAicHJvZmlsZUlkIiA6ICJlY2Q0ZTI4NjdkMmE0MTE2OTljYzlkMjMzYmM1YmEyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXRlZEtub3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RhZGU4YmFlNTY3YTA2NzBmYmViMDI1ZTYzNTA2YTA2ZTQwMTBlZjY2NDRmZjdiNTU2YmRmOTNkMjYwODk1NCIKICAgIH0KICB9Cn0="
+        },
+        "Sadan's Brooch": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTQ4MDAxOTQ1MCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYzhiNDdhMWE4ZjEwZDI5NTgzNjVlMTdhZjcyZWEyZTJlOTIyMGZlZmIzZDgwZDhmMzYxMTZhZjcxZWI0YWU3IgogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Ultimate Jerry III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Necromancer Lord Leggings": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Soulweaver Gloves": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODIyMjY4MywKICAicHJvZmlsZUlkIiA6ICI4NzE3ZGFhNmM3OTU0NzE2YmJlYWQ0MDRkYzg0NDQzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3VsbDAwMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMjg2NzcyMTJiZTQzZWFhZDIzZDQ3ZWQ4NDNlMTVmYjFlNjgzODQ1OTRjMDliNThiMjNmODI0MjdlNTQ5YSIKICAgIH0KICB9Cn0="
+        },
+        "Necromancer Sword": {
+            "locked": false,
+            "id": "iron_sword",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Fel Skull": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5NDQ0NzI4Nzc0NSwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlN2Q1OTg0NzAxMTk4YjVmMTdjNWI5MzA3NDgxYzczZjZlY2I2M2ViY2FlZDQxYzFlYTg1Yzk5YzIwNDRjYWUiCiAgICB9CiAgfQp9"
+        },
+        "Summoning Ring": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNTcxNzczNjM4NiwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc3MGQxNTk5ZWVmZDU2MjFkMTBhYjY5OTYzZDJhOWIxYjBjOWExZTg5OTllYTg4YTU5NzcyNDQ1ZWQyZjAzOTYiCiAgICB9CiAgfQp9"
+        },
+        "Necromancer Lord Chestplate": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Precursor Eye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTQ3OTI0MjkyNCwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MmMwNjgzYjIwMTljYTNkMzk0NzI3M2UzOTRiZmNhMWI0ZDcxYjYxYjY3YjM5NDc0YzJkNmQ3M2E5YjY3NTA4IgogICAgfQogIH0KfQ=="
+        }
+    },
+    "F7": {
+        "Precursor Gear": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTMyNjI5NDg5NiwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmZjEwN2UyMGU5NWY1ZjZhYjYxYWU3M2RjNDI1MjNhMTEyZmM0NThjMzMzYTExNDgxMmIzMTNhMmI4ZGQ4YTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Combo II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Rejuvenate III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Last Stand II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Infinite Quiver VII)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Soul Eater I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Jerry III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Wither Cloak Sword": {
+            "locked": false,
+            "id": "stone_sword",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Wither Helmet": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY4OTY4MzY3MDM4NywKICAicHJvZmlsZUlkIiA6ICJkNzU2OTc4MWUyYjY0OWIyYjVlMjVlYTJhNDZkOGQxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEckthcGRvciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82OTExMjk0MDk3ODk1ODlhZTFiNDNlMWQ4MjhjMDZmYzlhMjEzYjc4MzQ4YTY4YjczMTNiZGQ0MDFkNzQ4NWNjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Wither Blood": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTU0MzQ1NTU3OCwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmNWQyMGUwNjAwMTc0ZGNiYWI3NzQ1ZDk0NDgzMmZiMjA2M2MyYmQxNDkwYzY1MDU5MDFiMjhiZmFhY2Q4ZTUiCiAgICB9CiAgfQp9"
+        },
+        "Wither Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Wither Catalyst": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": null
+        },
+        "Enchanted Book (No Pain No Gain II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Wither Leggings": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Feather Falling VII)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Auto Recombobulator": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwODM3NTk0MTA3NywKICAicHJvZmlsZUlkIiA6ICI2NmRmYzFmNTRlNTU0ZTZmODJjNTA5ZjM1NTJiYTkwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJadWFyaWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmZjhkYmJhYjE1YmZiYjExZTIzYjFmNTBiMzRlZjU0OGFkOTgzMmMwYmQ3ZjVhMTM3OTFhZGFkMDA1N2UxYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Wither Chestplate": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Enchanted Book (One For All I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Shadow Warp": {
+            "locked": false,
+            "id": "writable_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Wither Shield": {
+            "locked": false,
+            "id": "writable_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Implosion": {
+            "locked": false,
+            "id": "writable_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Storm the Fish": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzExMTY1OSwKICAicHJvZmlsZUlkIiA6ICJlNDNiMjBiZTIyNWM0NzhkOTc5ZDJhNDllNjc4MWI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3JkS2l3aXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRiMGU1MDQwMDZjYTI4ZDg1M2U0M2ZkY2VjZGJlNzU3YTY0ZWFkMjliYjg2YjVjNDE5OGU1YjcxM2RlNzgxNyIKICAgIH0KICB9Cn0="
+        },
+        "Maxor the Fish": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE0ODEwNDc1OTIxMzAsInByb2ZpbGVJZCI6IjM5YWY2ODQ0NjgwOTRkMmY4YmE0N2U5MmQwODdiZTE4IiwicHJvZmlsZU5hbWUiOiJNSEZfV2l0aGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZGY3NGUzMjNlZDQxNDM2OTY1ZjVjNTdkZGYyODE1ZDUzMzJmZTk5OWU2OGZiYjlkNmNmNWM4YmQ0MTM5ZiJ9fX0="
+        },
+        "Goldor the Fish": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1NjUwMjk3ODk3NDIsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMwYTViYzcyZjM3NmZhZjg2NWYzZTAxN2Q5MzMwMzM4NGViZmJkZWQ0Y2RmMmE2NDkxYTI2MTdmYmUzMWY2MjUifX19"
+        }
+    },
+    "M1": {
+        "Enchanted Book (Rejuvenate I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Necromancer's Brooch": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDU5MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YjZiZWFjNTczNjVjYWY0NmYwMzdmM2QyYTNhNDU3ZjZjYWZlNjQ3NTdiYWYxNGU4OTkzY2QyZGExOGNmZjciCiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Infinite Quiver VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Feather Falling VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Red Nose": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5MzYxMTA5MzQ5MSwKICAicHJvZmlsZUlkIiA6ICJlNzkzYjJjYTdhMmY0MTI2YTA5ODA5MmQ3Yzk5NDE3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVfSG9zdGVyX01hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Yjc0OTBiNzY5YzkwYjI5YzRkMDgzNzE1YTc1MmEwNTU4NzhjYzE5NTQzNDUxYWMzODdmODhmNzQ5MzQ1OTA2IgogICAgfQogIH0KfQ=="
+        },
+        "Master Skull - Tier 1": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTg2MzUyMjUxMiwKICAicHJvZmlsZUlkIiA6ICJiMjdjMjlkZWZiNWU0OTEyYjFlYmQ5NDVkMmI2NzE0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIRUtUMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNDZkMGQzZDEwNjkxNjVhNDUyM2E4NTgwNThhMDkwYzcwYjc0Mjk5MjlhYmM4NjkwMDljYjZlYmZjZGU3NTA2IgogICAgfQogIH0KfQ=="
+        },
+        "Bonzo's Mask": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1ODc5MDgzMDU4MjYsInByb2ZpbGVJZCI6IjJkYzc3YWU3OTQ2MzQ4MDI5NDI4MGM4NDIyNzRiNTY3IiwicHJvZmlsZU5hbWUiOiJzYWR5MDYxMCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI3MTZlY2JmNWI4ZGEwMGIwNWYzMTZlYzZhZjYxZThiZDAyODA1YjIxZWI4ZTQ0MDE1MTQ2OGRjNjU2NTQ5YyJ9fX0="
+        },
+        "Balloon Snake": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODI0MDc0MSwKICAicHJvZmlsZUlkIiA6ICI2ZDgwYjVkMjQyMGY0MWZkOTQxMjM4YzA3YzVlYzAxNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQb05pWW8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUzMDg4ZGUzZWRmZDFiMTA5OGQ4ZDhmNTZmNTAwNGE4OTMwNTUxZTA2M2M3Nzg5MWZhMDA3MDNjZjAzMWI5OSIKICAgIH0KICB9Cn0="
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Bonzo's Staff": {
+            "locked": false,
+            "id": "blaze_rod",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Jerry I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        }
+    },
+    "M2": {
+        "Enchanted Book (Ultimate Wise I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Rejuvenate I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Necromancer's Brooch": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDU5MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YjZiZWFjNTczNjVjYWY0NmYwMzdmM2QyYTNhNDU3ZjZjYWZlNjQ3NTdiYWYxNGU4OTkzY2QyZGExOGNmZjciCiAgICB9CiAgfQp9"
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Master Skull - Tier 2": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTg2MzUyMjUxMiwKICAicHJvZmlsZUlkIiA6ICJiMjdjMjlkZWZiNWU0OTEyYjFlYmQ5NDVkMmI2NzE0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIRUtUMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNDZkMGQzZDEwNjkxNjVhNDUyM2E4NTgwNThhMDkwYzcwYjc0Mjk5MjlhYmM4NjkwMDljYjZlYmZjZGU3NTA2IgogICAgfQogIH0KfQ=="
+        },
+        "Adaptive Belt": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODI2MTU3NCwKICAicHJvZmlsZUlkIiA6ICIwOWQ3YmJjNGYxZmU0ZjlkYjRiZmE1MTY2NDA3OTcyYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJlemtkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcwYmY2ZDc2ZjJhMDNmMzE5ZmZmZTcyNWY4MmI4MGI5MjUyOTFlZmRhMzZkNGRiMjViYWNkN2VhODZhNjU3YyIKICAgIH0KICB9Cn0="
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Adaptive Blade": {
+            "locked": false,
+            "id": "stone_sword",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Red Scarf": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDY0NDAyNSwKICAicHJvZmlsZUlkIiA6ICIyNzZlMDQ2YjI0MDM0M2VkOTk2NmU0OTRlN2U2Y2IzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBRFJBTlM3MTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzMWExZWZlMzMyNjNmYTAwZWZkZjQ3OWNmNDBhMTFjMTMxNmRiMzIzYmM4ZDc4NzNmODk5N2U4ZTJmNzVkOSIKICAgIH0KICB9Cn0="
+        }
+    },
+    "M3": {
+        "Enchanted Book (Last Stand I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Rejuvenate II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Master Skull - Tier 3": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTg2MzU2Mzg5NywKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExNTNhZmVkYTFmODBjYjM4MmI1Y2MzMTcxNzUxMDJhMWQ5ZmJkMWQ2YzI2YzkyNTQzMzk3OWE2MzU2NTAxNCIKICAgIH0KICB9Cn0="
+        },
+        "Necromancer's Brooch": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDU5MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YjZiZWFjNTczNjVjYWY0NmYwMzdmM2QyYTNhNDU3ZjZjYWZlNjQ3NTdiYWYxNGU4OTkzY2QyZGExOGNmZjciCiAgICB9CiAgfQp9"
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "First Master Star": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTgwMjU4MDE1OSwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxMzY3MjQ3NDVjOGM5YWJjNzVjZGYyMjA1ZjJjZDFkMzNlNmJmZWZhNDE1Zjk5NWJlNzY5MjI5MTIxNjllYzkiCiAgICB9CiAgfQp9"
+        },
+        "Adaptive Helmet": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDAzOTAzMjUzOCwKICAicHJvZmlsZUlkIiA6ICI1MzgyNzM1OGIzOTc0ZmJiOTg0OTY5MWM5Yzg3NTA1YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPdmVyQmlnYm95MTIzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZjBkMzRhYWE3MTQzNzc5ODM3MDFjMWJiZTliM2Y2ZTdiMzBjYjM4NTcxYmMwYTJmZDc1NDFkN2VkYjE2MzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Adaptive Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Adaptive Chestplate": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Adaptive Leggings": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Jerry II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        }
+    },
+    "M4": {
+        "Enchanted Book (Last Stand I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Rejuvenate II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Master Skull - Tier 3": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTg2MzU2Mzg5NywKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExNTNhZmVkYTFmODBjYjM4MmI1Y2MzMTcxNzUxMDJhMWQ5ZmJkMWQ2YzI2YzkyNTQzMzk3OWE2MzU2NTAxNCIKICAgIH0KICB9Cn0="
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Spirit Wing": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NjAzODQyNTM5OSwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMjlhZDc2YzI0NTk5MTFjMmJiYWNkY2QwYTdiODJlMDgzNTU2N2UzZTUxMzRiMDVhNmY1YWY2NjlkZDg4YjgzIgogICAgfQogIH0KfQ=="
+        },
+        "Spirit Bone": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1NzE0OTg0NzUxNTYsInByb2ZpbGVJZCI6ImVkNTNkZDgxNGY5ZDRhM2NiNGViNjUxZGNiYTc3ZTY2IiwicHJvZmlsZU5hbWUiOiJGb3J5eExPTCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg0ODA1MTdhNDQ5N2NmN2NiZjFmYzVlZjhlZWViMTExMTliYTA3MzZkOTNkNTFiYzVlMWU2ZGE5MGU2OTgyNCJ9fX0="
+        },
+        "Spirit Stone": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTAxMjc4ODI0MywKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZmUwOThjNzM2NmZmYWJhYzQ4ZjdkNDY1MDI3MjEyZjZhNzdlZGQ3M2FjYWZjYWQyYzA4NzVmMTFhMDMxYjIiCiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Rend II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Spirit Sword": {
+            "locked": false,
+            "id": "iron_sword",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Spirit Shortbow": {
+            "locked": false,
+            "id": "bow",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Spirit Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "[Lvl 1] Spirit": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTg2MjAyNjE5OSwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhkOWNjYzY3MDY3N2QwY2ViYWFkNDA1OGQ2YWFmOWFjZmFiMDlhYmVhNWQ4NjM3OWEwNTk5MDJmMmZlMjI2NTUiCiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Ultimate Jerry II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        }
+    },
+    "M5": {
+        "Enchanted Book (Rejuvenate III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Last Stand II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Dark Orb": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTA2MTU4ODI0NSwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3YzQwMzZmODBiZjM2MDkxODBjN2M0YTk1Njg4NTNmZDgxNWYxNTRhZDg0MzhiOTJmMzg1MTAxOTgzNWIwNzAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Ultimate Wise II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Overload I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Legion I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Lethality VI)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Shadow Assassin Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Shadow Assassin Helmet": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxOTM0NjY3MzMxNCwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMWFhMTRkZTljMTU4ZDM1MTM5NDljODVjYWJiOWUzNzg0OGI5ODRlYzNmYjViNDRhMzIxOWY0ZmI1OGEwMGRhIgogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Bank III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Shadow Assassin Leggings": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Shadow Assassin Cloak": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODIwNzA1MywKICAicHJvZmlsZUlkIiA6ICIzZWUxYWRlMzljZDI0ZjFkOWYwODliYjA2ZTkzNTY5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSdXNvR01SIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZhMjQzMTE0ODU3MmZlZDdiYzFlYWNmMGQyMjlkZGIyMTE1ZDFhMmNhMTgxZDMyM2QzZmNhNTIyNmU1MTZhMWQiCiAgICB9CiAgfQp9"
+        },
+        "Master Skull - Tier 4": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTg2MzU2Mzg5NywKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExNTNhZmVkYTFmODBjYjM4MmI1Y2MzMTcxNzUxMDJhMWQ5ZmJkMWQ2YzI2YzkyNTQzMzk3OWE2MzU2NTAxNCIKICAgIH0KICB9Cn0="
+        },
+        "Livid Dagger": {
+            "locked": false,
+            "id": "iron_sword",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Jerry III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Shadow Assassin Chestplate": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Warped Stone": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MjE0NjU0MzEyMywKICAicHJvZmlsZUlkIiA6ICJjOWRlZTM4MDUzYjg0YzI5YjZlZjA5YjJlMDM5OTc0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQVJfRGVjZW1iZXI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU0ZDQ4YWM3ZTY1YjkxNDY3OTA0ZjJmNGQxNTQ1NTY3NzZmZmE5Y2QyZDUyNmIxMmEwNDk5YmI1OWNjNjU2YzciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Shadow Fury": {
+            "locked": false,
+            "id": "diamond_sword",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Last Breath": {
+            "locked": false,
+            "id": "bow",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Livid Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTE4OTA0OSwKICAicHJvZmlsZUlkIiA6ICIwMzA5NGIxMzM1ZjY0M2RlOGQxM2MzN2MzYTliOTQxYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDb2FzdGVyRnJlYWtERSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84OGIwMjE0MTg5YjVhZjhlNzM1YzlkMjJlYmNiZjZlMjk3YTY1MGU4N2VlNTNhOTI3MGZkNzI0YzdiMzI4ZmZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        }
+    },
+    "M6": {
+        "Enchanted Book (Rejuvenate III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Last Stand II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§9Occasional",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Combo II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (No Pain No Gain II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Bank III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Swarm I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Necromancer Lord Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Giant Tooth": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NTU1NTcyNCwKICAicHJvZmlsZUlkIiA6ICI3NzI3ZDM1NjY5Zjk0MTUxODAyM2Q2MmM2ODE3NTkxOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsaWJyYXJ5ZnJlYWsiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmEyNjM2YTBmZDQwMzQ1Y2EyOTUxZmRhMDUzNDYwZTY2ZmFiNjNmM2ZjMjE3ODM3MTEzZTIwNDM1N2JiZjgyYiIKICAgIH0KICB9Cn0="
+        },
+        "Necromancer Lord Helmet": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0NDAxNDg2MiwKICAicHJvZmlsZUlkIiA6ICJlY2Q0ZTI4NjdkMmE0MTE2OTljYzlkMjMzYmM1YmEyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXRlZEtub3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RhZGU4YmFlNTY3YTA2NzBmYmViMDI1ZTYzNTA2YTA2ZTQwMTBlZjY2NDRmZjdiNTU2YmRmOTNkMjYwODk1NCIKICAgIH0KICB9Cn0="
+        },
+        "Sadan's Brooch": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTQ4MDAxOTQ1MCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYzhiNDdhMWE4ZjEwZDI5NTgzNjVlMTdhZjcyZWEyZTJlOTIyMGZlZmIzZDgwZDhmMzYxMTZhZjcxZWI0YWU3IgogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Ultimate Jerry III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Necromancer Lord Leggings": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Soulweaver Gloves": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5MjI5ODIyMjY4MywKICAicHJvZmlsZUlkIiA6ICI4NzE3ZGFhNmM3OTU0NzE2YmJlYWQ0MDRkYzg0NDQzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTa3VsbDAwMDAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTUyMjg2NzcyMTJiZTQzZWFhZDIzZDQ3ZWQ4NDNlMTVmYjFlNjgzODQ1OTRjMDliNThiMjNmODI0MjdlNTQ5YSIKICAgIH0KICB9Cn0="
+        },
+        "Necromancer Sword": {
+            "locked": false,
+            "id": "iron_sword",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Fel Skull": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5NDQ0NzI4Nzc0NSwKICAicHJvZmlsZUlkIiA6ICJmZDYwZjM2ZjU4NjE0ZjEyYjNjZDQ3YzJkODU1Mjk5YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlN2Q1OTg0NzAxMTk4YjVmMTdjNWI5MzA3NDgxYzczZjZlY2I2M2ViY2FlZDQxYzFlYTg1Yzk5YzIwNDRjYWUiCiAgICB9CiAgfQp9"
+        },
+        "Summoning Ring": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYzNTcxNzczNjM4NiwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc3MGQxNTk5ZWVmZDU2MjFkMTBhYjY5OTYzZDJhOWIxYjBjOWExZTg5OTllYTg4YTU5NzcyNDQ1ZWQyZjAzOTYiCiAgICB9CiAgfQp9"
+        },
+        "Master Skull - Tier 4": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTg2MzU2Mzg5NywKICAicHJvZmlsZUlkIiA6ICI3NTE0NDQ4MTkxZTY0NTQ2OGM5NzM5YTZlMzk1N2JlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGFua3NNb2phbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmExNTNhZmVkYTFmODBjYjM4MmI1Y2MzMTcxNzUxMDJhMWQ5ZmJkMWQ2YzI2YzkyNTQzMzk3OWE2MzU2NTAxNCIKICAgIH0KICB9Cn0="
+        },
+        "Necromancer Lord Chestplate": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Giant's Sword": {
+            "locked": false,
+            "id": "iron_sword",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Precursor Eye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTQ3OTI0MjkyNCwKICAicHJvZmlsZUlkIiA6ICI1NjY3NWIyMjMyZjA0ZWUwODkxNzllOWM5MjA2Y2ZlOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVJbmRyYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MmMwNjgzYjIwMTljYTNkMzk0NzI3M2UzOTRiZmNhMWI0ZDcxYjYxYjY3YjM5NDc0YzJkNmQ3M2E5YjY3NTA4IgogICAgfQogIH0KfQ=="
+        }
+    },
+    "M7": {
+        "Precursor Gear": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTMyNjI5NDg5NiwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmZjEwN2UyMGU5NWY1ZjZhYjYxYWU3M2RjNDI1MjNhMTEyZmM0NThjMzMzYTExNDgxMmIzMTNhMmI4ZGQ4YTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Combo II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Rejuvenate III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Last Stand II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Infinite Quiver VII)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Soul Eater I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Hot Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Wise II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Ultimate Jerry III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Recombobulator 3000": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Enchanted Book (Bank III)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Enchanted Book (Wisdom II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Wither Cloak Sword": {
+            "locked": false,
+            "id": "stone_sword",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Wither Helmet": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY4OTY4MzY3MDM4NywKICAicHJvZmlsZUlkIiA6ICJkNzU2OTc4MWUyYjY0OWIyYjVlMjVlYTJhNDZkOGQxOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEckthcGRvciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82OTExMjk0MDk3ODk1ODlhZTFiNDNlMWQ4MjhjMDZmYzlhMjEzYjc4MzQ4YTY4YjczMTNiZGQ0MDFkNzQ4NWNjIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Wither Blood": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§bRare",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTU0MzQ1NTU3OCwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JmNWQyMGUwNjAwMTc0ZGNiYWI3NzQ1ZDk0NDgzMmZiMjA2M2MyYmQxNDkwYzY1MDU5MDFiMjhiZmFhY2Q4ZTUiCiAgICB9CiAgfQp9"
+        },
+        "Wither Boots": {
+            "locked": false,
+            "id": "leather_boots",
+            "oddsTier": "§bRare",
+            "xpRequired": null
+        },
+        "Fuming Potato Book": {
+            "locked": false,
+            "id": "book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Wither Catalyst": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null,
+            "skullTexture": null
+        },
+        "Enchanted Book (No Pain No Gain II)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Wither Leggings": {
+            "locked": false,
+            "id": "leather_leggings",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Enchanted Book (Feather Falling VII)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": null
+        },
+        "Auto Recombobulator": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwODM3NTk0MTA3NywKICAicHJvZmlsZUlkIiA6ICI2NmRmYzFmNTRlNTU0ZTZmODJjNTA5ZjM1NTJiYTkwZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJadWFyaWciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmZjhkYmJhYjE1YmZiYjExZTIzYjFmNTBiMzRlZjU0OGFkOTgzMmMwYmQ3ZjVhMTM3OTFhZGFkMDA1N2UxYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Wither Chestplate": {
+            "locked": false,
+            "id": "leather_chestplate",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Enchanted Book (One For All I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Fifth Master Star": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTgwMjUyNDkxMywKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzFjODA0MjUyN2Y4MWM4ZTI5M2UyODEwMTEzNDg5ZjQzOTRjYzZlZmUxNWQxYWZhYzQzMTU3MWM3M2I2MmRjNCIKICAgIH0KICB9Cn0="
+        },
+        "Shadow Warp": {
+            "locked": false,
+            "id": "writable_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Wither Shield": {
+            "locked": false,
+            "id": "writable_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Implosion": {
+            "locked": false,
+            "id": "writable_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Master Skull - Tier 5": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTg2MzU5NDY5MCwKICAicHJvZmlsZUlkIiA6ICI1YjY2YzNkZWZhYTI0NWMzYTcwNjM3OTA3NTQ0Yjg3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFuX1JhaWNvMDgxNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MTBmOWYxMDg1ZDQwNzE0MWViNzc2MTdhNGFiZGFhYTA4ZDhhZjMzYjk2MDIwMGZlOGMxMjZjMWQxNDQ1NjgyIgogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Thunderlord VII)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Dark Claymore": {
+            "locked": false,
+            "id": "stone_sword",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null
+        },
+        "Storm the Fish": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MzExMTY1OSwKICAicHJvZmlsZUlkIiA6ICJlNDNiMjBiZTIyNWM0NzhkOTc5ZDJhNDllNjc4MWI1NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3JkS2l3aXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTRiMGU1MDQwMDZjYTI4ZDg1M2U0M2ZkY2VjZGJlNzU3YTY0ZWFkMjliYjg2YjVjNDE5OGU1YjcxM2RlNzgxNyIKICAgIH0KICB9Cn0="
+        },
+        "Maxor the Fish": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE0ODEwNDc1OTIxMzAsInByb2ZpbGVJZCI6IjM5YWY2ODQ0NjgwOTRkMmY4YmE0N2U5MmQwODdiZTE4IiwicHJvZmlsZU5hbWUiOiJNSEZfV2l0aGVyIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZGY3NGUzMjNlZDQxNDM2OTY1ZjVjNTdkZGYyODE1ZDUzMzJmZTk5OWU2OGZiYjlkNmNmNWM4YmQ0MTM5ZiJ9fX0="
+        },
+        "Goldor the Fish": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1NjUwMjk3ODk3NDIsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMwYTViYzcyZjM3NmZhZjg2NWYzZTAxN2Q5MzMwMzM4NGViZmJkZWQ0Y2RmMmE2NDkxYTI2MTdmYmUzMWY2MjUifX19"
+        },
+        "Necron Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": null,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTI3ODI0OSwKICAicHJvZmlsZUlkIiA6ICJmZDJlZDMzMzI0Mjk0ZThmOWVlZGNiN2RhMWJiNzlkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkcmFtYWdnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3NzBmNmNjYWY4ODYxZGEzYzg4MTI4MjVhZmFlYzVhOTVjNWYzMzZmNzI4YTI2ZjEzNWEyNTk0YjQ4NzU0MDIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        }
+    },
+    "Nucleus Runs": {
+        "Pickonimbus 2000": {
+            "locked": false,
+            "id": "diamond_pickaxe",
+            "oddsTier": "§bRare",
+            "xpRequired": 4000
+        },
+        "Prehistoric Egg": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 8000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxODI0ODMxMzQ5OSwKICAicHJvZmlsZUlkIiA6ICJjOTAzOGQzZjRiMTg0M2JiYjUwNTU5ZGE3MWFjMTk2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQk5SY29vbGNhdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYzhiMTVlODVlZDIyNWMyMWMzMjM2N2RhN2JlMjQ0Nzc5ZTM2YWZlN2Y3NTYzYTZhNTcwYTcxN2NiNWJlMWIxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Divan Fragment": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 8000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDU0NjIxODEyMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYzMzg0NGYwM2M5MmQ4MjUwM2M5Y2Q1NjdhNTFmZGE0NzQwNGZhNTNmMjE2ZmFkNDczZjE2YWM4M2E5NzMxNGYiCiAgICB9CiAgfQp9"
+        },
+        "Jasper Crystal": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 10000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTQ2Mzk4NDEwMSwKICAicHJvZmlsZUlkIiA6ICI0OWIzODUyNDdhMWY0NTM3YjBmN2MwZTFmMTVjMTc2NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJiY2QyMDMzYzYzZWM0YmY4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UyYjVmZTllYTUyMzk1YTQxYWM2OGMwY2I1NzU4NjRmZWI1ZmRkOGVhMTU4MjYyZThmODI5MTI1ZWMzM2Q0ODciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Enchanted Book (Lapidary I)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 10000
+        },
+        "Helix Fossil": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 10000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNDk4MjI5NDg2OSwKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE3NzYxN2Y1MWMxMmYyY2ExZjU2MWM1MGViMzdiOGJhNzUxZjJkNjIxOTkyY2UzZDNlYzhmMTc0MzkxM2RlMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+        },
+        "Ruby Crystal": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§5Extraordinary",
+            "xpRequired": 10000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTQ2MzkzNTc3NSwKICAicHJvZmlsZUlkIiA6ICIwYTUzMDU0MTM4YWI0YjIyOTVhMGNlZmJiMGU4MmFkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQX0hpc2lybyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMWRiZTMwYjAyN2FjYmNlYjYxMjU2M2JkODc3Y2Q3ZWJiNzE5ZWE2ZWQxMzk5MDI3ZGNlZTU4YmI5MDQ5ZDRhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        },
+        "Dwarven O's Gemstone Grahams": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 20000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQ5MTA5ODE0NywKICAicHJvZmlsZUlkIiA6ICJlOTUyODY0OGZhYzU0ZDdlOGI0ZGU1NDhiMzU3MDY5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwNjAwMDEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTY2YzUwZjFhYTkxNzIzOWIxNzlkY2MwM2RmYjFlZDZiNWQyODQ0ZWI4YzhmYTc3OWYxMjIzZDZjYmJhNTA2MyIKICAgIH0KICB9Cn0="
+        },
+        "Jaderald": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 20000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDU0NjA1NDIxMywKICAicHJvZmlsZUlkIiA6ICI0ZmFkNjk2NTIxNGI0NGQ4YjAxYzlhZTVjZDQ0MDVjOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJoaXBfYXNpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjkxZjExMWRhNWI3NjM5ZmI0ZGMxN2RlYWIwMTY4ZGUyNGE4NzAwN2MzNzJiYTc5ZDYyY2I1ZTcxMGY3ZTJjMiIKICAgIH0KICB9Cn0="
+        },
+        "Enchanted Book (Fortune IV)": {
+            "locked": false,
+            "id": "enchanted_book",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 35000
+        },
+        "Gemstone Mixture": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 35000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjQ2MDEzMSwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM0ZDQyZjljNDYxY2VlMTk5N2I2N2JmMzYxMGM2NDExYmY4NTJiOWU1ZGI2MDdiYmY2MjY1MjdjZmI0MjkxMmMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+        },
+        "Precious Pearl": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 50000,
+            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1NTc0MTQ0MjcyODQsInByb2ZpbGVJZCI6ImNiZGViZGRjODNhNTQ0OWFiZDFiOThhNzBjY2E0ZDhlIiwicHJvZmlsZU5hbWUiOiJDaGVja2lkb2lzIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83NGE1ZGI4ZWE3OTc3YzdmOTZhNjhkZmUxZmE0OWI2NmVhZmJlY2QzODExYTZiNmQzZDE3N2RkYTVmOTQyMzEzIn19fQ=="
+        },
+        "Claw Fossil": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 50000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwODY0MzUwNzkyNywKICAicHJvZmlsZUlkIiA6ICI0MmIwOTMyZDUwMWI0MWQ1YTM4YjEwOTcxYTYwYmYxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJib2x0MDc4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdjOTVjMDdiZDAxMDBmMmQwNWNkNmU5YThjOGE4MzUxODdlMzEzOTMxNmJlZmI0ZjM3NDhjM2U2ODU5MTQxZmMiCiAgICB9CiAgfQp9"
+        },
+        "Recall Potion": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§dPray RNGesus",
+            "xpRequired": 100000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDA1MDI4OTA2MSwKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFmODE1MWRlYjM5NTUzMjkyYjlhNjk2NzQ4MzJkZGE4MDAxNzgwY2E5ODE4MGEwNmVhZjliMzY4OTMwYjViYiIKICAgIH0KICB9Cn0="
+        },
+        "Quick Claw": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 450000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjcwODkzOCwKICAicHJvZmlsZUlkIiA6ICI4ZjE5NjJmYzE4NzY0MDU3ODYxMmIxMzNjODE4YmY5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaW9uXzkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMxMmE1YTEyZWNiMjRkNjg1MmRiMzg4ZTZhMzQ3MjFjYzY3ZjUyMmNjZGU3ZTgyNGI5Zjc1ZTk1MDM2YWM5MyIKICAgIH0KICB9Cn0="
+        },
+        "Jade Dye": {
+            "locked": false,
+            "id": "skull",
+            "oddsTier": "§cRNGesus Incarnate",
+            "xpRequired": 5000000,
+            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTE3NTMyMSwKICAicHJvZmlsZUlkIiA6ICJiYTllNWY4YTc0Yzg0MzQ5YjY3ZTg2MzBlMDRmMTI2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhbW9ndXNwYWRvdyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YjIxNWZmNjcxZjExMWU5OGQxN2E0NzNmZGE4ZTVlOWQwNDI1Y2NkNmU3OTQyNjY1NGNjYjU1ZjNmMGNjNjUyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+        }
+    }
+}

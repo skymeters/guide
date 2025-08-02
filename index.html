@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sky Meters</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body class="dark">
+  <!-- Top Bar (Fixed) -->
+  <div class="top-bar">
+    <div class="top-left">
+      <span class="logo-gradient">Sky Meters</span>
+    </div>
+    <div class="top-right">
+      <a href="https://github.com" target="_blank" class="btn-header">GitHub</a>
+      <a href="https://ko-fi.com/skymeters" target="_blank" class="btn-header kofi">☕ Ko-fi</a>
+    </div>
+  </div>
+
+  <!-- Sidebar (Fixed) -->
+  <div class="sidebar">
+    <button class="sidebar-btn" onclick="selectLeftTab('experiment')" id="btn-experiment">Experiment</button>
+    <button class="sidebar-btn" onclick="selectLeftTab('slayer')" id="btn-slayer">Slayer</button>
+    <button class="sidebar-btn" onclick="selectLeftTab('dungeons')" id="btn-dungeons">Dungeons</button>
+    <button class="sidebar-btn" onclick="selectLeftTab('nucleus')" id="btn-nucleus">Nucleus Runs</button>
+  </div>
+
+  <!-- Scrollable Main Content -->
+  <div class="main-scroll-area">
+    <div class="main-content">
+      <div class="card">
+        <div id="right-category-container" class="category-panel"></div>
+      </div>
+      <div id="exp-toggle-bar"></div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
