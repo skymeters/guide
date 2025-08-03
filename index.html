@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
 </head>
 <body class="dark">
+  <button class="sidebar-toggle-btn" onclick="toggleSidebar()">☰</button>
   <!-- Top Bar (Fixed) -->
   <div class="top-bar">
     <div class="top-left">
@@ -39,5 +40,15 @@
     </div>
   </div>
   <script src="scripts.js"></script>
+  <script>
+    function checkScreenAndRedirect() {
+      if (window.innerWidth < 780) {
+        window.location.href = "/media/index.html";
+      }
+    }
+
+    window.addEventListener("DOMContentLoaded", checkScreenAndRedirect);
+    window.addEventListener("resize", checkScreenAndRedirect);
+  </script>
 </body>
 </html>
