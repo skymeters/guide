@@ -433,14 +433,20 @@ function renderCategoryButtons(mode) {
   const toggleBar = document.getElementById("exp-toggle-bar");
   toggleBar.innerHTML = "";
 
-  if (mode === "dungeons") {
-    card.style.maxWidth = "730px";
-  } else if (mode === "slayer") {
-    card.style.maxWidth = "970px";
-  } else if (mode === "nucleus") {
-    card.style.maxWidth = "350px";
+  const screenW = window.innerWidth;
+
+  if (screenW < 580) {
+    card.style.maxWidth = "95vw";
   } else {
-    card.style.maxWidth = "unset";
+    if (mode === "dungeons") {
+      card.style.maxWidth = "730px";
+    } else if (mode === "slayer") {
+      card.style.maxWidth = "970px";
+    } else if (mode === "nucleus") {
+      card.style.maxWidth = "350px";
+    } else {
+      card.style.maxWidth = "unset";
+    }
   }
 
   if (mode === "slayer") {
@@ -492,19 +498,13 @@ function renderCategoryButtons(mode) {
       wrapper.appendChild(btn);
 
       const note = document.createElement("div");
+      note.className = "greyDes"
       note.textContent = "Titanic Bottle, Experiment the Fish, Metaphysical Serums, and Rare Tier Books are excluded because wiki and in-game meter data are too inconsistent.";
-      note.style.color = "#aaa";
-      note.style.fontSize = "20px";
-      note.style.marginTop = "20px";
-      note.style.textAlign = "center";
       wrapper.appendChild(note);
 
       const note2 = document.createElement("div");
-      note2.textContent = "You get 1 Meter XP every ~830 Enchanting XP, after multiplied by wisdom. Because the meter number is way LOWER than the actual xp required, this page will only show the estimated rounds of an experiment to meter an item.";
-      note2.style.color = "magenta";
-      note2.style.fontSize = "30px";
-      note2.style.marginTop = "20px";
-      note2.style.textAlign = "center";
+      note2.className = "pinkDes"
+      note2.textContent = "You get 1 Meter XP every ~830 Enchanting XP, after multiplied by wisdom. Because meter number is way LOWER than the actual xp required, this page will only show the estimated rounds of experiments to meter an item.";
 
       wrapper.appendChild(note2);
       container.appendChild(wrapper);
@@ -538,8 +538,6 @@ function renderCategoryButtons(mode) {
       const toggle5 = new Toggler("⊘", "Yes", cookieBuff, null, "Cookie Buff", "enchanted_cookie.gif", 0.5, updateWisdom_Ench);
       const toggle6 = new Toggler("⊘", "Yes", enchantingPot, null, "Ench Pot (God Pot)", "potion_of_water_breathing.gif", 0.5, updateWisdom_Ench);
       const toggle7 = new Toggler("⊘", "Lv.7+", riftNecklace, null, "Rift Necklace", "rift_necklace.png", 0.35, updateWisdom_Ench);
-      const toggle8 = new Toggler("⊘", "+2", quantum5, null, "Quantum V weekend wisdom", "wisdom.png", 0.4, updateWisdom_Ench);
-      const dropdown1 = new DropDown("Daeman Attribute", "shard_daemon.png", 0.4, daeman, [...Array(11).keys()], pity);
 
       const wisdomOptions = document.createElement("div");
       wisdomOptions.style.display = "flex";
@@ -549,11 +547,22 @@ function renderCategoryButtons(mode) {
       wisdomOptions.appendChild(toggle5.getElement());
       wisdomOptions.appendChild(toggle6.getElement());
       wisdomOptions.appendChild(toggle7.getElement());
-      wisdomOptions.appendChild(toggle8.getElement());
-      wisdomOptions.appendChild(dropdown1.getElement());
-
       wisdomOptionsBox.appendChild(wisdomOptions);
       container.appendChild(wisdomOptionsBox);
+
+      const toggle8 = new Toggler("⊘", "+2", quantum5, null, "Quantum V weekend wisdom", "wisdom.png", 0.4, updateWisdom_Ench);
+      const dropdown1 = new DropDown("Daeman Attribute", "shard_daemon.png", 0.4, daeman, [...Array(11).keys()], pity);
+      const wisdomOptionsBox2 = document.createElement("div");
+      wisdomOptionsBox2.className = "experiment-wisdom-options-container2";
+      const wisdomOptions2 = document.createElement("div");
+      wisdomOptions2.style.display = "flex";
+      wisdomOptions2.style.flexDirection = "row";
+      wisdomOptions2.style.gap = "24px"; // spacing between toggler sets
+      wisdomOptions2.style.alignItems = "center";
+      wisdomOptions2.appendChild(toggle8.getElement());
+      wisdomOptions2.appendChild(dropdown1.getElement());
+      wisdomOptionsBox2.appendChild(wisdomOptions2);
+      container.appendChild(wisdomOptionsBox2);
 
       // Add Max Wisdom and Max Daeman buttons
       const controlButtonRow = document.createElement("div");
@@ -665,3 +674,50 @@ function formatModeName(mode) {
 window.addEventListener("DOMContentLoaded", () => {
   selectLeftTab('experiment');
 });
+
+// @media
+function setupSidebarToggle() {
+  if (window.innerWidth <= 768) {
+    const btn = document.createElement("button");
+    btn.className = "sidebar-toggle-btn";
+    btn.innerText = "☰";
+    btn.onclick = () => {
+      document.querySelector(".sidebar").classList.toggle("open");
+    };
+    document.body.appendChild(btn);
+  }
+}
+
+window.addEventListener("DOMContentLoaded", setupSidebarToggle);
+
+function toggleSidebar() {
+  const sidebar = document.querySelector(".sidebar");
+  const body = document.body;
+  sidebar.classList.toggle("open");
+  body.classList.toggle("sidebar-hidden"); 
+
+  setTimeout(() => window.dispatchEvent(new Event("resize")), 200);
+}
+
+
+let touchStartX = 0;
+
+document.addEventListener("touchstart", (e) => {
+  touchStartX = e.changedTouches[0].screenX;
+});
+
+document.addEventListener("touchend", (e) => {
+  const touchEndX = e.changedTouches[0].screenX;
+  const diff = touchEndX - touchStartX;
+
+  const sidebar = document.querySelector(".sidebar");
+  if (!sidebar) return;
+
+  if (diff > 50) {
+    sidebar.classList.add("open");
+  } else if (diff < -50) {
+    sidebar.classList.remove("open");
+  }
+});
+
+document.body.classList.add("sidebar-hidden");
