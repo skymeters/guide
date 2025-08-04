@@ -556,7 +556,7 @@ async function renderCategoryButtons(mode) {
 
       const note2 = document.createElement("div");
       note2.className = "pinkDes"
-      note2.textContent = "You get 1 Meter XP every ~830 Enchanting XP, after multiplied by wisdom. Because meter number is way LOWER than the actual xp required, this page will only show the estimated rounds of experiments to meter an item.";
+      note2.textContent = "You get 1 Meter XP every ~830 Enchanting XP, after multiplied by wisdom. Because meter number is way LOWER than the actual meter xp it should've been, this page will only show the estimated rounds of experiments to meter an item.";
 
       wrapper.appendChild(note2);
       container.appendChild(wrapper);
@@ -755,3 +755,4 @@ function formatModeName(mode) {
 window.addEventListener("DOMContentLoaded", () => {
   selectLeftTab('experiment');
 });
+
