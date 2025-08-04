@@ -48,12 +48,12 @@ body {
 
 .logo-text {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .logo-gradient {
   font-weight: 800;
-  font-size: 20px;
+  font-size: 30px;
   background: linear-gradient(90deg, #facc15, #f97316);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -545,4 +545,5 @@ body {
   }
 
 }
+
 
