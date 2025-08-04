@@ -8,7 +8,8 @@
         },
         "A Beginner's Guide to Pesthunting": {
             "locked": false,
-            "xpRequired": 500000
+            "xpRequired": 500000,
+            "image": "guide.png"
         },
         "Severed Pincer": {
             "locked": false,
@@ -1874,3 +1875,4 @@
         }
     }
 }
+
