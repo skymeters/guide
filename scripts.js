@@ -1,4 +1,9 @@
 const state = {
+  //global
+  vincent: 0,
+  pity: 0,
+  mode: "experiment",
+  //experiment
   wisdom: {
     guardian: 0,
     cookie: 0,
@@ -12,13 +17,25 @@ const state = {
   },
   totalWisdom: 0,
   totalBonusChance: 0,
-  vincent: 0,
-  pity: 0,
   baseChance: 0,
   baseNadeshiko: 0,
   baseXpPerRound: 0,
+  //nucleus
   runsRequired: 0,
+  extraRolls: {
+    "higherRoller": 0,
+    "mole": 0,
+  },
+  rollsPerBundle: 16.5,
 };
+
+const nucleusWeightSum = 307212
+
+const meterDataPromise = fetch("RNGMeter.json")
+  .then(response => {
+    if (!response.ok) throw new Error("Failed to load RNGMeter.json");
+    return response.json();
+  });
 
 // global states for stateRef
 const mythicguardian = {};
@@ -31,12 +48,16 @@ const riftNecklace = {};
 const quantum5 = {};
 const daeman = {};
 
+const higherRoller = {};
+const mole = {};
+
 //global table variables
 let enchTable1 = null;
 let enchTable2 = null;
+let NucleusTable = null;
 
 class Toggler {
-  constructor(label1, label2, stateRef, label3 = null, description = null, image = null, imageScaler = 1, onChange = null) {
+  constructor(label1, label2, stateRef, label3 = null, description = null, image = null, onChange = null) {
     this.stateRef = stateRef;
 
     const outerWrapper = document.createElement("div");
@@ -49,12 +70,11 @@ class Toggler {
       const img = document.createElement("img");
       img.src = `./images/${image}`;
       img.alt = "Toggle image";
-      img.style.width = `${100 * imageScaler}px`;
-      img.style.height = "auto";
+      img.style.width = "40px";
+      img.style.height = "40px";
       img.style.objectFit = "contain";
-      outerWrapper.appendChild(img);
       img.style.display = "block";
-      img.style.margin = "0 auto";
+      outerWrapper.appendChild(img);
     }
 
     if (description) {
@@ -164,7 +184,7 @@ class Toggler {
 }
 
 class DropDown {
-  constructor(description = null, image = null, imageScaler = 1, stateRef, optionList = [], onChange = null) {
+  constructor(description = null, image = null, stateRef, optionList = [], onChange = null) {
     this.stateRef = stateRef;
 
     const outerWrapper = document.createElement("div");
@@ -177,11 +197,10 @@ class DropDown {
       const img = document.createElement("img");
       img.src = `./images/${image}`;
       img.alt = "Dropdown image";
-      img.style.width = `${100 * imageScaler}px`;
-      img.style.height = "auto";
+      img.style.width = "40px";
+      img.style.height = "40px";
       img.style.objectFit = "contain";
       img.style.display = "block";
-      img.style.margin = "0 auto";
       outerWrapper.appendChild(img);
     }
 
@@ -313,6 +332,13 @@ class ReactiveTable {
     }
   }
 
+  editHeader(x, value) {
+    const headers = this.table.querySelectorAll("thead th");
+    if (x >= 0 && x < headers.length) {
+      headers[x].textContent = value;
+    }
+  }
+
   getElement() {
     return this.table;
   }
@@ -371,10 +397,32 @@ function recalculateExperiment() {
   enchTable2.editCell(4, 10, (r*5/state.vincent).toFixed(2));
 }
 
+//Nucleus runs update logic
+async function updateExtraRolls() {
+  const meterData = await meterDataPromise;
+  state.extraRolls.higherRoller = higherRoller.value ? 1 : 0;
+  state.extraRolls.mole = mole.value ? 1 : 0;
+  state.rollsPerBundle = (16.5 + state.extraRolls.higherRoller + state.extraRolls.mole).toFixed(1)
+  NucleusTable.editHeader(3, `Chance Per Bundle (${state.rollsPerBundle}R)`)
+
+  Object.entries(meterData["Nucleus Runs"]).forEach(([name, info], index) => {
+    c = info.dye?(0.0002*state.vincent).toFixed(4):((info.w/nucleusWeightSum)*100).toFixed(4)
+    NucleusTable.editCell(2, index, `${c}%`)
+    NucleusTable.editCell(3, index, `${(c*state.rollsPerBundle).toFixed(4)}%`)
+  })
+}
+
 // vincent and daeman pity global functions
-function updateVincent() {
+async function updateVincent() {
+  const meterData = await meterDataPromise;
   state.vincent = [1, 2, 3][vincent.value];
-  recalculateExperiment();
+  switch(state.mode) {
+    case "experiment":
+      recalculateExperiment();
+      return;
+    case "nucleus":
+      updateExtraRolls()
+  }
 }
 
 function pity() {
@@ -426,7 +474,9 @@ function getLeftTabColor(mode) {
   }
 }
 
-function renderCategoryButtons(mode) {
+async function renderCategoryButtons(mode) {
+  state.mode = mode
+  const meterData = await meterDataPromise;
   const container = document.getElementById("right-category-container");
   const card = document.querySelector(".main-content .card");
   container.innerHTML = "";
@@ -442,8 +492,6 @@ function renderCategoryButtons(mode) {
       card.style.maxWidth = "730px";
     } else if (mode === "slayer") {
       card.style.maxWidth = "970px";
-    } else if (mode === "nucleus") {
-      card.style.maxWidth = "350px";
     } else {
       card.style.maxWidth = "unset";
     }
@@ -513,9 +561,9 @@ function renderCategoryButtons(mode) {
       const toggleBar = document.createElement("div");
       toggleBar.className = "experiment-toggle-container";
 
-      const toggle1 = new Toggler("⊘", "Equipped", mythicguardian, null, "MYTHIC Lv.100 Guardian", "guardian.png", 0.5, guardian);
-      const toggle2 = new Toggler("⊘", "Yes", eman8, null, "Enderman Slayer Lv.8", "ender_pearl.png", 0.5, updateChance_Ench);
-      const toggle3 = new Toggler("⊘", "2x", vincent, "3x", "Vincent", "vincent.png", 0.4, updateVincent);
+      const toggle1 = new Toggler("⊘", "Equipped", mythicguardian, null, "MYTHIC Lv.100 Guardian", "guardian.png", guardian);
+      const toggle2 = new Toggler("⊘", "Yes", eman8, null, "Enderman Slayer Lv.8", "ender_pearl.png", updateChance_Ench);
+      const toggle3 = new Toggler("⊘", "2x", vincent, "3x", "Vincent", "vincent.png", updateVincent);
 
       const toggleRow = document.createElement("div");
       toggleRow.style.display = "flex";
@@ -529,15 +577,15 @@ function renderCategoryButtons(mode) {
       toggleBar.appendChild(toggleRow);
       container.appendChild(toggleBar);
 
-      const toggle4 = new Toggler("Metaphysical", "Transcendent", tabletype, "Supreme", "Experiment Tier (Lv.50/Lv.40/Lv.30)", "pink_dye.png", 0.4, updateBase_Ench);
+      const toggle4 = new Toggler("Metaphysical", "Transcendent", tabletype, "Supreme", "Experiment Tier (Lv.50/Lv.40/Lv.30)", "pink_dye.png", updateBase_Ench);
       container.appendChild(toggle4.getElement());
 
       const wisdomOptionsBox = document.createElement("div");
       wisdomOptionsBox.className = "experiment-wisdom-options-container";
 
-      const toggle5 = new Toggler("⊘", "Yes", cookieBuff, null, "Cookie Buff", "enchanted_cookie.gif", 0.5, updateWisdom_Ench);
-      const toggle6 = new Toggler("⊘", "Yes", enchantingPot, null, "Ench Pot (God Pot)", "potion_of_water_breathing.gif", 0.5, updateWisdom_Ench);
-      const toggle7 = new Toggler("⊘", "Lv.7+", riftNecklace, null, "Rift Necklace", "rift_necklace.png", 0.35, updateWisdom_Ench);
+      const toggle5 = new Toggler("⊘", "Yes", cookieBuff, null, "Cookie Buff", "enchanted_cookie.gif", updateWisdom_Ench);
+      const toggle6 = new Toggler("⊘", "Yes", enchantingPot, null, "Ench Pot (God Pot)", "potion_of_water_breathing.gif", updateWisdom_Ench);
+      const toggle7 = new Toggler("⊘", "Lv.7+", riftNecklace, null, "Rift Necklace", "rift_necklace.png", updateWisdom_Ench);
 
       const wisdomOptions = document.createElement("div");
       wisdomOptions.style.display = "flex";
@@ -550,8 +598,8 @@ function renderCategoryButtons(mode) {
       wisdomOptionsBox.appendChild(wisdomOptions);
       container.appendChild(wisdomOptionsBox);
 
-      const toggle8 = new Toggler("⊘", "+2", quantum5, null, "Quantum V weekend wisdom", "wisdom.png", 0.4, updateWisdom_Ench);
-      const dropdown1 = new DropDown("Daeman Attribute", "shard_daemon.png", 0.4, daeman, [...Array(11).keys()], pity);
+      const toggle8 = new Toggler("⊘", "+2", quantum5, null, "Quantum V weekend wisdom", "wisdom.png", updateWisdom_Ench);
+      const dropdown1 = new DropDown("Daeman Attribute", "shard_daemon.png", daeman, [...Array(11).keys()], pity);
       const wisdomOptionsBox2 = document.createElement("div");
       wisdomOptionsBox2.className = "experiment-wisdom-options-container2";
       const wisdomOptions2 = document.createElement("div");
@@ -596,48 +644,77 @@ function renderCategoryButtons(mode) {
       controlButtonRow.appendChild(btnMaxWisdom);
       controlButtonRow.appendChild(btnMaxDaeman);
       container.appendChild(controlButtonRow);
-      
+
       //defaults
       updateVincent();
       updateBase_Ench();
+      //tables
       const card = document.querySelector(".main-content .card");
-
-      //table1
       enchTable1 = new ReactiveTable("Avg Ench XP per round", "Avg Meter XP per round");
       card.appendChild(enchTable1.getElement());
       let r = (state.runsRequired/state.totalWisdom/(1 + state.pity/100)).toFixed(2)
       let r2 = (state.baseXpPerRound*state.totalWisdom*(1 + state.pity/100)/830).toFixed(2)
       enchTable1.addRow((state.baseXpPerRound*state.totalWisdom).toFixed(1), r2)
 
-      //table2
-      enchTable2 = new ReactiveTable("", "Drop", "Chance", "Max Meter", "Avg Rounds to Meter", "Insta Sell", "Sell Offer");
+      enchTable2 = new ReactiveTable("", "Drop", "Chance", "Max Meter", "Avg Rounds to Meter");
       card.appendChild(enchTable2.getElement());
 
       let baseBook = (state.baseChance*state.totalBonusChance).toFixed(4)
-      let baseNadeshiko = (state.baseNadeshiko*state.totalBonusChance*state.vincent).toFixed(4)
-      enchTable2.addRow("guardian.png", "Leg Guardian Pet", `${baseBook}%`, 150000, (r*0.3).toFixed(2), 0, 0)
-      enchTable2.addRow("golden_bounty.png", "Golden Bounty", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("pesthunting_guide.png", "A Beginner's Guide To Pesthunting", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("ensnared_snail.png", "Ensnared Snail", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("severed_pincer.png", "Severed Pincer", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("gold_bottle_cap.png", "Gold Bottle Cap", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("chain_end_times.png", "Chain of the End Times", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("octopus_tendril.png", "Octopus Tendril", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("troubled_bubble.png", "Troubled Bubble", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("enchanted_book.gif", "All Other T7 Books", `${baseBook}%`, 500000, r, 0, 0)
-      enchTable2.addRow("nadeshiko.png", "Nadeshiko Dye", `${baseNadeshiko}%`, 2500000, (r*5).toFixed(2), 0, 0)
+      let dye = (state.baseNadeshiko*state.totalBonusChance*state.vincent).toFixed(4)
+      Object.entries(meterData.Experiment).forEach(([name, info]) => {
+        enchTable2.addRow(info.image||`${name}.png`, name, `${info.dye?dye:baseBook}%`, info.xpRequired, info.f?(r * info.f).toFixed(2):r);
+      });
     } else {
-      container.appendChild(btn); // for nucleus
-      
+      //button wrappers
       const wrapper = document.createElement("div");
+      wrapper.style.display = "flex";
+      wrapper.style.flexDirection = "column";
+      wrapper.style.alignItems = "center";
+      wrapper.appendChild(btn);
+
       const note = document.createElement("div");
-      note.textContent = "Coming soon in 3-5 business days!";
-      note.style.color = "magenta";
-      note.style.fontSize = "50px";
-      note.style.marginTop = "20px";
-      note.style.textAlign = "center";
+      note.className = "greyDes"
+      note.textContent = "Anything that's not in in-game Crystal Nucleus RNG Meter is automatically ignored in this page.";
       wrapper.appendChild(note);
+      
+      //tables
+      const card = document.querySelector(".main-content .card");
+      NucleusTable = new ReactiveTable("", "Drop", "Chance Per Roll", `Chance Per Bundle (${state.rollsPerBundle}R)`, "Max Meter", "Avg Runs to Meter");
+
+      Object.entries(meterData["Nucleus Runs"]).forEach(([name, info]) => {
+        c = info.dye?(0.0002*state.vincent).toFixed(4):((info.w/nucleusWeightSum)*100).toFixed(4)
+        NucleusTable.addRow(info.image||`${name}.png`, name, `${c}%`, `${(c*state.rollsPerBundle).toFixed(4)}%`, info.xpRequired, "N/A");
+      });
+
+      //toggler
+      const toggleBarNu = document.createElement("div");
+      toggleBarNu.className = "experiment-toggle-container";
+
+      const toggleNu1 = new Toggler("⊘", "2x", vincent, "3x", "Vincent", "vincent.png", updateVincent);
+      const toggleNu2 = new Toggler("⊘", "Unlocked", higherRoller, null, "Higher Roller", "compass.png", updateExtraRolls);
+      const toggleNu3 = new Toggler("⊘", "Equipped", mole, null, "Mole Pet", "mole.png", updateExtraRolls);
+
+      const toggleRowNu = document.createElement("div");
+      toggleRowNu.style.display = "flex";
+      toggleRowNu.style.flexDirection = "row";
+      toggleRowNu.style.gap = "24px"
+      toggleRowNu.style.alignItems = "center";
+      
+      const gap = document.createElement("div");
+      gap.className = "gap";
+      wrapper.appendChild(gap)
+      
+      toggleRowNu.appendChild(toggleNu1.getElement());
+      toggleRowNu.appendChild(toggleNu2.getElement());
+      toggleRowNu.appendChild(toggleNu3.getElement());
+      toggleBarNu.appendChild(toggleRowNu);
+      wrapper.appendChild(toggleBarNu)
       container.appendChild(wrapper);
+
+      card.appendChild(NucleusTable.getElement());
+
+      //defaults
+      updateExtraRolls();
     }
   }
 }
@@ -674,50 +751,3 @@ function formatModeName(mode) {
 window.addEventListener("DOMContentLoaded", () => {
   selectLeftTab('experiment');
 });
-
-// @media
-function setupSidebarToggle() {
-  if (window.innerWidth <= 768) {
-    const btn = document.createElement("button");
-    btn.className = "sidebar-toggle-btn";
-    btn.innerText = "☰";
-    btn.onclick = () => {
-      document.querySelector(".sidebar").classList.toggle("open");
-    };
-    document.body.appendChild(btn);
-  }
-}
-
-window.addEventListener("DOMContentLoaded", setupSidebarToggle);
-
-function toggleSidebar() {
-  const sidebar = document.querySelector(".sidebar");
-  const body = document.body;
-  sidebar.classList.toggle("open");
-  body.classList.toggle("sidebar-hidden"); 
-
-  setTimeout(() => window.dispatchEvent(new Event("resize")), 200);
-}
-
-
-let touchStartX = 0;
-
-document.addEventListener("touchstart", (e) => {
-  touchStartX = e.changedTouches[0].screenX;
-});
-
-document.addEventListener("touchend", (e) => {
-  const touchEndX = e.changedTouches[0].screenX;
-  const diff = touchEndX - touchStartX;
-
-  const sidebar = document.querySelector(".sidebar");
-  if (!sidebar) return;
-
-  if (diff > 50) {
-    sidebar.classList.add("open");
-  } else if (diff < -50) {
-    sidebar.classList.remove("open");
-  }
-});
-
-document.body.classList.add("sidebar-hidden");
