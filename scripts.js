@@ -406,9 +406,13 @@ async function updateExtraRolls() {
   NucleusTable.editHeader(3, `Chance Per Bundle (${state.rollsPerBundle}R)`)
 
   Object.entries(meterData["Nucleus Runs"]).forEach(([name, info], index) => {
-    c = info.dye?(0.0002*state.vincent).toFixed(4):((info.w/nucleusWeightSum)*100).toFixed(4)
+    let c = info.dye?(0.0002*state.vincent).toFixed(4):((info.w/nucleusWeightSum)*100).toFixed(4)
+    let b = state.rollsPerBundle
+    let M = Math.round(info.xpRequired / 1000)
+    let n = ((-M-1+Math.sqrt((M+1)*(M+1)+4*M/(b*c/100)))/2).toFixed(2)
     NucleusTable.editCell(2, index, `${c}%`)
     NucleusTable.editCell(3, index, `${(c*state.rollsPerBundle).toFixed(4)}%`)
+    NucleusTable.editCell(5, index, info.dye?Math.min(5000,n):n)
   })
 }
 
