@@ -321,229 +321,32 @@ body {
   margin-top: 20px;
 }
 
-@media (max-width: 768px) {
-  html, body {
-    overflow-x: hidden;
-  }
-
-  .main-content-wrapper {
-    margin-left: 0 !important;
-    width: 100% !important;
-    padding: 0 !important;
-  }
-
-  .main-content {
-    width: 100% !important;
-    margin: 0 auto !important;
-    overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-  }
-
-  .main-content .card {
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 12px;
-    box-sizing: border-box;
-  }
-
-  .main-content .card .greyDes {
-    font-size: 13px !important;
-  }
-
-  .main-content .card .pinkDes {
-    font-size: 16px !important;
-  }
-
-  .sidebar {
-    position: fixed;
-    top: 60px;
-    left: -200px;
-    width: 180px;
-    background-color: #5776a7;
-    height: calc(100vh - 60px);
-    transition: left 0.3s ease;
-    z-index: 999;
-  }
-
-  .sidebar.open {
-    left: 0;
-  }
-
-  .sidebar-toggle-btn {
-    position: fixed;
-    top: 14px;
-    left: 14px;
-    z-index: 1300;
-    background: #facc15;
-    color: black;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    padding: 8px 12px;
-    cursor: pointer;
-  }
-
-  .top-bar {
-    flex-wrap: wrap;
-    row-gap: 6px;
-    column-gap: 12px;
-    justify-content: flex-start;
-    align-items: center;
-    padding-right: 60px;
-  }
-
-  .top-bar > * {
-    flex-shrink: 0;
-  }
-
-  .top-left {
-    margin-left: 60px;
-    min-width: 120px;
-  }
-
-  .btn-header.des {
-    display: none;
-  }
-
-  .right-button,
-  .custom-dropdown,
-  .experiment-toggle label {
-    font-size: 14px;
-  }
-
-  .experiment-toggle {
-    transform: scale(0.9);
-  }
-
-  .logo-gradient {
-    font-size: 18px;
-  }
-  .sidebar-hidden .sidebar {
-    display: none !important;
-  }
-  .sidebar-hidden .main-content {
-    width: 100vw;
-  }
-
+.blueDes {
+  font-size: 30px;
+  color: rgb(53, 175, 250);
+  text-align: center;
+  margin-top: 20px;
 }
 
-@media (max-width: 580px) {
-  .main-content {
-    flex-direction: column;
-    align-items: center;
-  }
+.limeDes {
+  font-size: 30px;
+  color: limegreen;
+  text-align: center;
+  margin-top: 20px;
+}
 
-  .main-content .card {
-    max-width: 95vw !important;
-    width: 100%;
-    margin: 0 auto;
-  }
+.toggle-gradient {
+  background: linear-gradient(to right, #facc15, #f59e0b) !important;
+}
 
-  .experiment-toggle-container {
-    flex-direction: column;
-  }
+/* Optional: Make labels bolder on select */
+.experiment-toggle input:checked + label {
+  font-weight: bold;
+}
 
-  .experiment-wisdom-options-container,
-  .experiment-wisdom-options-container2 {
-    flex-direction: column;
-  }
-
-  .top-bar {
-    height: 80px;
-  }
-
-  .sky-meter {
-    position: relative;
-    top: unset;
-    transform: unset;
-    margin: 0 auto;
-  }
-
-  .sidebar {
-    display: none;
-  }
-
-  .sidebar.open {
-    display: block;
-  }
-  .top-bar {
-    flex-direction: column;
-    align-items: center;
-    height: 80px;
-    padding: 12px 0;
-    position: relative;
-  }
-
-  .top-left {
-    margin-left: 0 !important;
-    text-align: center;
-    width: 100%;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .top-right {
-    margin-top: 5px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .btn-header,
-  .btn-header.kofi {
-    font-size: 14px;
-    padding: 4px 10px;
-  }
-
-  .sidebar-toggle-btn {
-    top: 10px;
-    left: 10px;
-    z-index: 1301;
-    position: absolute;
-  }
-
-  .main-content-wrapper {
-    margin-left: 0;
-    padding: 0;
-  }
-
-  .main-content {
-    padding: 0 8px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  .main-content .card {
-    width: 100%;
-    margin: 0 auto;
-    padding: 12px;
-    box-sizing: border-box;
-  }
-
-  .right-button-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 16px;
-  }
-
-  .right-button {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-
-  .sidebar-hidden .sidebar {
-    display: none !important;
-  }
-
-  .sidebar-hidden .main-content {
-    width: 100vw;
-  }
-
+/* Bigger toggler style */
+.big-toggle {
+  transform: scale(1.5);
 }
 
 
