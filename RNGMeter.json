@@ -39,6 +39,14 @@
             "locked": false,
             "xpRequired": 500000
         },
+        "Severed Hand": {
+            "locked": false,
+            "xpRequired": 500000
+        },
+        "End Stone Idol": {
+            "locked": false,
+            "xpRequired": 500000
+        },
         "T7 Books": {
             "locked": false,
             "xpRequired": 500000,
@@ -54,407 +62,682 @@
     "Zombie": {
         "Matcha Dye": {
             "dye": true,
+            "table": "Handled Separately",
             "locked": false,
             "xpRequired": 75000000,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTIxOTgwMCwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NjQwMmI3ZjcyOGZmMjk5ZGYxMjM4NzIxMjY0MTMxODYwZjIzOWNkODAxNWUzZjAyNjAwNTE5NzMwN2Q1M2VhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 0.0002,
+            "w5": 0.0004,
+            "r": "None"
         },
         "Foul Flesh": {
             "locked": false,
-            "id": "coal",
-            "xpRequired": 3093
+            "xpRequired": 3093,
+            "w4": 2000,
+            "w5": 2000,
+            "am4": 2.5,
+            "am5": 3.5,
+            "table": "Main",
+            "r": "None"
         },
-        "Revenant": {
+        "Revenant Shard": {
             "locked": false,
             "xpRequired": 36867,
-            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1NjgwMzY3MjYwNjYsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmYzAxODQ0NzNmZTg4MmQyODk1Y2U3Y2JjODE5N2JkNDBmZjcwYmYxMGQzNzQ1ZGU5N2I2YzJhOWM1ZmM3OGYifX19"
+            "w4": 200,
+            "w5": 200,
+            "table": "Main",
+            "r": "None"
         },
         "◆ Pestilence Rune I": {
             "locked": false,
             "xpRequired": 8007,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDEyOTIyMiwKICAicHJvZmlsZUlkIiA6ICIxNzM1MGE5OWQ3MzQ0NDBjYTY0YzJjMDU3YTNjMWM4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaWxkZWRoZXJvNTY5MSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hOGM0ODExMzk1ZmJmN2Y2MjBmMDVjYzMxNzVjZWYxNTE1YWFmNzc1YmEwNGEwMTA0NTAyN2YwNjkzYTkwMTQ3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 833,
+            "w5": 833,
+            "table": "Extra",
+            "image": "pestilence_rune.png",
+            "r": "Slayer Lv.2"
         },
         "Undead Catalyst": {
             "locked": false,
             "xpRequired": 24750,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MTk5OTUxMiwKICAicHJvZmlsZUlkIiA6ICIxNmQ4NjI4NzYzMWY0NDY2OGQ0NDM2ZTJlY2IwNTllNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXphVG91cm5leSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NWI4NzE1MDZmNWEyOTUwMjY1Nzk2MzRlZTUxNzU1YjI5YWJlMjkwN2NiNDI0OGVhNWNjMzY0MDhmY2U2OTI4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 75,
+            "w5": 250,
+            "table": "Main",
+            "r": "Slayer Lv.3"
         },
-        "Enchanted Book (Smite VI)": {
+        "Smite VI": {
             "locked": false,
-            "xpRequired": 62434
+            "xpRequired": 62434,
+            "w4": 100,
+            "w5": 100,
+            "table": "Main",
+            "image": "enchanted_book.gif",
+            "r": "Slayer Lv.4"
         },
         "Beheaded Horror": {
             "locked": false,
             "xpRequired": 312175,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMjIzNjA5NzQ0NCwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kYmFkOTllZDNjODIwYjc5NzgxOTBhZDA4YTkzNGE2OGRmYTkwZDk5ODY4MjVkYTFjOTdmNmYyMWY0OWFkNjI2IgogICAgfQogIH0KfQ=="
+            "w4": 20,
+            "w5": 20,
+            "table": "Main",
+            "r": "Slayer Lv.5"
         },
         "Revenant Catalyst": {
             "locked": false,
             "xpRequired": 49500,
-            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1Nzg2ODE0NDkwMzMsInByb2ZpbGVJZCI6IjIyZmQ2N2IxN2U2NzQ1ZmI5MmU3NDc3MTIzNDMwNTE4IiwicHJvZmlsZU5hbWUiOiJyYWtldGVuYmVuIiwic2lnbmF0dXJlUmVxdWlyZWQiOnRydWUsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iODhjZmFmYTVmMDNmOGFlZjA0MmExNDM3OTllOTY0MzQyZGY3NmI3YzFlYjQ2MWY2MThlMzk4Zjg0YTk5YTYzIn19fQ=="
+            "w4": 125,
+            "w5": 125,
+            "table": "Main",
+            "r": "Slayer Lv.6"
         },
         "◆ Snake Rune I": {
             "locked": false,
             "xpRequired": 333500,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTMwNjAwOTQ3NywKICAicHJvZmlsZUlkIiA6ICI1ZjQ5N2JmZDQwODU0NjRhOTNiMTRjN2Y3OTc5ZGYyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUVEs5ODciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmM0YTY1YzY4OWIyZDM2NDA5MTAwYTYwYzJhYjhkM2QwYTY3Y2U5NGVlYTNjMWY3YWM5NzRmZDg5MzU2OGI1ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 20,
+            "w5": 20,
+            "table": "Extra",
+            "image": "snake_rune.png",
+            "r": "Slayer Lv.6"
         },
         "Festering Maggot": {
             "locked": false,
             "xpRequired": 368674,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODc2MTE3MDUxOSwKICAicHJvZmlsZUlkIiA6ICI4ZjllYTBhNWJhOGE0NTNkYTgzNTBmYjRmNzVmOTJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJDeWJlck1pbm55IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U4MjhhZjNmYTgwMTU0Y2NlZTEzNWM2NGNkNTc0MTJmZWRhODk1Y2QxZDIxZjI0MGQ4NzY3NzNiYTlkNmE1NmQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
-        },
-        "Revenant Viscera": {
-            "locked": false,
-            "id": "cooked_porkchop",
-            "xpRequired": 3686
+            "w4": 20,
+            "w5": 20,
+            "table": "Main",
+            "r": "Slayer Lv.6"
         },
         "Scythe Blade": {
             "locked": false,
-            "id": "diamond",
-            "xpRequired": 491566
+            "xpRequired": 491566,
+            "w4": 7,
+            "w5": 15,
+            "table": "Main",
+            "image": "enchanted_diamond.gif",
+            "r": "Slayer Lv.7"
         },
-        "Enchanted Book (Smite VII)": {
+        "Revenant Viscera": {
             "locked": false,
-            "xpRequired": 1053357
+            "xpRequired": 3686,
+            "w5": 2000,
+            "am5": 1.5,
+            "table": "Main",
+            "image": "enchanted_grilled_porkchop.gif",
+            "r": "Slayer Lv.7"
+        },
+        "Severed Hand": {
+            "locked": false,
+            "xpRequired": 1053357,
+            "w5": 7,
+            "table": "Main",
+            "r": "Slayer Lv.7"
         },
         "Shard of the Shredded": {
             "locked": false,
             "xpRequired": 921687,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMjEyNDkwMzA5MSwKICAicHJvZmlsZUlkIiA6ICJiNjM2OWQ0MzMwNTU0NGIzOWE5OTBhODYyNWY5MmEwNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCb2JpbmhvXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMTA4NTdlODcyNzExZTdlNjkyNWM5ZWYxMTE1MzUzYjQ3ZjU4ZWYwN2ViNWMyZDU2NWYxZjg2MDIzZTdhMjg0IgogICAgfQogIH0KfQ=="
+            "w5": 8,
+            "table": "Main",
+            "r": "Slayer Lv.7"
+        },
+        "Warden Heart": {
+            "locked": false,
+            "xpRequired": 3686750,
+            "w5": 2,
+            "table": "Main",
+            "r": "Slayer Lv.7"
         }
     },
     "Spider": {
         "Brick Red Dye": {
             "dye": true,
+            "table": "Handled Separately",
             "locked": false,
             "xpRequired": 75000000,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MDk0Njc4NSwKICAicHJvZmlsZUlkIiA6ICJlYTA4ZjhlZTdiOTg0YmFlYWM3N2JhYzk3ZWVkYzE4NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXYXlkZXJUTSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jZTExMzE5OGE1NTg5NDZhZTM2ZTg4MGRiOWM1MTg1NzIyMWIyY2JlYzA5ZjRmZjUxOTJlMTM4NWU4ZjhlYzJhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 0.0002,
+            "w5": 0.0004,
+            "r": "None"
         },
         "Toxic Arrow Poison": {
             "locked": false,
-            "xpRequired": 3277
+            "xpRequired": 3277,
+            "w4": 1800,
+            "w5": 1800,
+            "am4": 40,
+            "am5": 64,
+            "table": "Main",
+            "r": "None"
         },
         "◆ Bite Rune I": {
             "locked": false,
             "xpRequired": 7657,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDQ3MDQ3NywKICAicHJvZmlsZUlkIiA6ICIzOTVkZTJlYjVjNjU0ZmRkOWQ2NDAwY2JhNmNmNjFhNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFyZXN0ZXZlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzYTFhZDRmY2M0MmZiNjNjNjgxMzI4ZTQyZDYzYzgzY2ExOTNiMzMzYWYyYTQyNjcyOGEyNWE4Y2M2MDA2OTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 833,
+            "w5": 833,
+            "table": "Extra",
+            "r": "None",
+            "image": "bite_rune.png"
         },
         "◆ Darkness Within Rune I": {
             "locked": false,
             "xpRequired": 74880,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMzQyNTYyNywKICAicHJvZmlsZUlkIiA6ICI2ZjhlYWI1MTVmNTc0MmRhOWYxZDYzMzY1ODAxMDU4YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaW5kZXJGb3hfMjAwNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iOGQwNWZkNGZjNmZkMWNiMzJjY2JhYmU4NzA0MGEyOTZiNTE0MjdiNGZhNWNlNTdiZTViNDExZDg2ZTIzNGM4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 50,
+            "w5": 100,
+            "table": "Extra",
+            "r": "None",
+            "image": "darkness_rune.png"
         },
         "Spider Catalyst": {
             "locked": false,
             "xpRequired": 24250,
-            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1ODMxMjMyODkwNTMsInByb2ZpbGVJZCI6IjkxZjA0ZmU5MGYzNjQzYjU4ZjIwZTMzNzVmODZkMzllIiwicHJvZmlsZU5hbWUiOiJTdG9ybVN0b3JteSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlYjBlZDhmYzIyNzJiM2QzZDgyMDY3NmQ1MmEzOGU3YjJlOGRhOGM2ODdhMjMzZTBkYWJhYTE2YzBlOTZkZiJ9fX0="
+            "w4": 75,
+            "w5": 25,
+            "table": "Main",
+            "r": "Slayer Lv.2"
         },
-        "Tarantula Silk": {
+        "Bane of Arthropods VI": {
             "locked": false,
-            "id": "web",
-            "xpRequired": 3510
-        },
-        "Enchanted Book (Bane of Arthropods VI)": {
-            "locked": false,
-            "xpRequired": 120269
+            "xpRequired": 120269,
+            "w4": 50,
+            "w5": 50,
+            "table": "Main",
+            "r": "Slayer Lv.4",
+            "image": "enchanted_book.gif"
         },
         "Tarantula Catalyst": {
             "locked": false,
             "xpRequired": 117025,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODMyNDc4Mzk2MiwKICAicHJvZmlsZUlkIiA6ICIxMzEzZGFmMDc2OGQ0YmQ5Yjc1ODJkMGI1NWUwZGQxNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZW50aWNjaGllIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRiZDY2MTdjMTNlOTA0OTlkMWM4ZDE1NjRjZGFlN2E5ODY1NTk0ZjMzYmYwYmEwNGM5NDFiMjQ5YWEzZjMwZDQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 45,
+            "w5": 60,
+            "table": "Main",
+            "r": "Slayer Lv.5"
         },
         "Fly Swatter": {
             "locked": false,
-            "id": "golden_shovel",
-            "xpRequired": 234050
+            "xpRequired": 234050,
+            "w4": 20,
+            "w5": 30,
+            "table": "Main",
+            "r": "Slayer Lv.5",
+            "image": "enchanted_golden_shovel.gif"
         },
         "Vial of Venom": {
             "locked": false,
             "xpRequired": 351075,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODY4NzQwMzg4NywKICAicHJvZmlsZUlkIiA6ICJhYWMxYjA2OWNkMjE0NWE2ODNlNzQxNzE4MDcxMGU4MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJqdXNhbXUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc4MDY3YzAzNGRhN2JmZTQ5ODhlMGJmNTE1YjA0OTlmOGFjMmM5OTJmZDdmZDA2MDZmYTAyMjU5ZjVhOGM2ZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 10,
+            "w5": 20,
+            "table": "Main",
+            "r": "Slayer Lv.6"
         },
         "Tarantula Talisman": {
             "locked": false,
             "xpRequired": 234050,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMjAzOTM2NTg4NiwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmMGYxMjNmMTBjOWExOTY2NWQ1NTYxNzkyZDJjOWFlYTA2NzQxOGEwZjkyZGMyMDQ5MGRhZGU3MGVkMzhjYjEiCiAgICB9CiAgfQp9"
+            "w4": 20,
+            "w5": 30,
+            "table": "Main",
+            "r": "Slayer Lv.6"
         },
         "Digested Mosquito": {
             "locked": false,
-            "id": "rotten_flesh",
-            "xpRequired": 702150
+            "xpRequired": 702150,
+            "w4": 7,
+            "w5": 10,
+            "table": "Main",
+            "r": "Slayer Lv.7"
+        },
+        "Tarantula Silk": {
+            "locked": false,
+            "xpRequired": 3510,
+            "w5": 2000,
+            "table": "Main",
+            "r": "Slayer Lv.6"
         },
         "Shriveled Wasp": {
             "locked": true,
             "xpRequired": 702150,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODU4NDU2NTIxNCwKICAicHJvZmlsZUlkIiA6ICI5YjhhN2NlMmJlYjI0NjdkYTJjZmU4MzQ1YTNjOTZkOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdGFyR2FtZXJTaGFsb20iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRkYzkwM2JhODBmNDQwMDBmZWNlZjdjY2NmMjdmYWU2ZjBkY2IyZDA5NGM1Njc1OTJiZjJjMWRiNGIyZTk3MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w5": 10,
+            "table": "Main",
+            "r": "Slayer Lv.7"
         },
         "Ensnared Snail": {
             "locked": true,
             "xpRequired": 1170250,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODc1NzgzNTc2MSwKICAicHJvZmlsZUlkIiA6ICJjNDIzYjQwMWZiOGU0ODc3YjMzMmVmMjhiZDdlZGZmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFjdGlvbkJyaW5lWVQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjQ1MzJiN2UwZmJkOTc2ZDU1OWZiYjIxOGQ5ZjRlNTNjOTM1NGY2OGIxZjM2M2MwNDgyMTI3MDkyNzI0Mjc0ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w5": 6,
+            "table": "Main",
+            "r": "Slayer Lv.7"
         },
         "Primordial Eye": {
             "locked": true,
             "xpRequired": 3510750,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTczODI0MzI4OTc5MSwKICAicHJvZmlsZUlkIiA6ICJlMjc5NjliODYyNWY0NDg1YjkyNmM5NTBhMDljMWMwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaVp6YVhQIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FhZDQ0YjRjNDYzNTY0OGQ1YmQyMTIxMGRjYjZiMzE0ZDQ4OWRjZDc1YmM3OTMyYzU2OTBlMTJkODg5ODJhMzQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w5": 2,
+            "table": "Main",
+            "r": "Slayer Lv.7"
         }
     },
     "Wolf": {
         "Celeste Dye": {
             "dye": true,
+            "table": "Handled Separately",
             "locked": false,
             "xpRequired": 75000000,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MDk5NzIyMywKICAicHJvZmlsZUlkIiA6ICJjZjc4YzFkZjE3ZTI0Y2Q5YTIxYmU4NWQ0NDk5ZWE4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXR0c0FybW9yU3RhbmRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwMjg5MTgxMmE1MmVkNmVkNDM3NjcyYjNlNmIyMTQ0OTViOTY1MTgwMGFlZjg3NTQ0YWM1YmQxOTM3NTgyOTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 0.0002,
+            "r": "None"
         },
         "Hamster Wheel": {
             "locked": false,
-            "id": "trapdoor",
-            "xpRequired": 3000
+            "xpRequired": 3000,
+            "w4": 2000,
+            "table": "Main",
+            "r": "None",
+            "image": "enchanted_trapdoor.gif"
         },
         "◆ Spirit Rune I": {
             "locked": false,
             "xpRequired": 7917,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDE1NTc5MSwKICAicHJvZmlsZUlkIiA6ICI4YjA2ZmU5ZGNjNjg0NDNmYWNmM2QzODA0NWNkNTMyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0aWVsY3ZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M3MzhiOGFmOGQ3Y2UxYTI2ZGM2ZDQwMTgwYjM1ODk0MDNlMTFlZjM2YTY2ZDdjNDU5MDAzNzczMjgyOTU0MmUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 833,
+            "table": "Extra",
+            "r": "Slayer Lv.2",
+            "image": "spirit_rune.png"
         },
-        "Enchanted Book (Critical VI)": {
+        "Critical VI": {
             "locked": false,
-            "xpRequired": 61634
+            "xpRequired": 61634,
+            "w4": 100,
+            "table": "Main",
+            "r": "Slayer Lv.4",
+            "image": "enchanted_book.gif"
         },
         "Furball": {
             "locked": false,
             "xpRequired": 30637,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODM4MDA4NCwKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjU0ODY3OGU0NGY5ZjYyZDM1MGMyNGEzZTAxOTA3YzA1NDViZWY2NjgxMDU5MDMzM2U2NTRiZDkzMWMxODdkYiIKICAgIH0KICB9Cn0="
+            "w4": 200,
+            "table": "Main",
+            "r": "Slayer Lv.4"
         },
         "Red Claw Egg": {
             "locked": false,
-            "id": "spawn_egg",
-            "xpRequired": 410900
+            "xpRequired": 410900,
+            "w4": 15,
+            "table": "Main",
+            "r": "Slayer Lv.5"
         },
         "◆ Couture Rune I": {
             "locked": false,
             "xpRequired": 219833,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMzU0NzI1NywKICAicHJvZmlsZUlkIiA6ICJhNTdmZDE5MGZmM2U0YjBkYTEzMmY2OGUzOTU3ZjViMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4SGFubmFoNyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MzRmYjMyMDMyMzNlZmJhZTgyNjI4YmQ0ZmNhNzM0OGNkMDcxZTViN2I1MjQwN2YxZDFkMjc5NGUzMTc5OWZmIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 30,
+            "table": "Extra",
+            "r": "Slayer Lv.6",
+            "image": "couture_rune.png"
         },
         "Grizzly Salmon": {
             "locked": false,
-            "id": "fish",
-            "xpRequired": 880500
+            "xpRequired": 880500,
+            "w4": 7,
+            "table": "Main",
+            "r": "Slayer Lv.7"
+        },
+        "Overflux Capacitor": {
+            "locked": false,
+            "xpRequired": 1232700,
+            "w4": 5,
+            "table": "Main",
+            "r": "Slayer Lv.7",
+            "image": "enchanted_quartz.gif"
         }
     },
     "Enderman": {
         "Byzantium Dye": {
             "dye": true,
+            "table": "Handled Separately",
             "locked": false,
             "xpRequired": 75000000,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MDk1ODAyNiwKICAicHJvZmlsZUlkIiA6ICJmZDJlZDMzMzI0Mjk0ZThmOWVlZGNiN2RhMWJiNzlkZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkcmFtYWdnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzlmMThjMDVlMTJjZmE0MTA4Y2UwZDlhYWY5MzMyYWMzZTI3Yzg4M2U4ZjRlZDIzODM0OWZlN2ZjZDBiYTU5NzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 0.0002,
+            "r": "None"
         },
         "Twilight Arrow Poison": {
             "locked": false,
-            "xpRequired": 3300
+            "xpRequired": 3300,
+            "w4": 1800,
+            "table": "Main",
+            "r": "None"
         },
         "◆ Endersnake Rune I": {
             "locked": false,
             "xpRequired": 9438,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMzYzMjkyMiwKICAicHJvZmlsZUlkIiA6ICI1ZjU5NmViY2JlOTQ0NmQxYmI0M2JlNGYzZjRiOGJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWlsMHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MzYTlhY2JiN2QzZDQ5YjFkNTRkMjYxMTExMDRkMGRhNTdkOGI0YWIzNzg4NWI0YmJkMjQwYWM3MTA3NGNhZDIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 800,
+            "table": "Extra",
+            "r": "None",
+            "image": "endersnake_rune.png"
         },
         "Summoning Eye": {
             "locked": false,
             "xpRequired": 74250,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTg3NzExNDUyMSwKICAicHJvZmlsZUlkIiA6ICI0ZDcwNDg2ZjUwOTI0ZDMzODZiYmZjOWMxMmJhYjRhZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaXJGYWJpb3pzY2hlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QzZDQ4MjI0YWZmODUzNTdjMzc0NTk1MWE0ZDg1ZTkyNGExMmMyNTgwZGMzYWQyODU0Y2JjZjNjMTJhZWE0ZDciCiAgICB9CiAgfQp9"
+            "w4": 80,
+            "table": "Main",
+            "r": "Slayer Lv.1"
         },
-        "Enchanted Book (Mana Steal I)": {
+        "Mana Steal I": {
             "locked": false,
-            "xpRequired": 11183
+            "xpRequired": 11183,
+            "w4": 600,
+            "table": "Main",
+            "r": "Slayer Lv.2",
+            "image": "enchanted_book.gif"
         },
         "Transmission Tuner": {
             "locked": false,
             "xpRequired": 22366,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjAxNzkwNSwKICAicHJvZmlsZUlkIiA6ICIxMWNkOTMzYmU1OGQ0MzYxOTdlYTc1MjU4MzM2Mzg0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb29ubGl0TUMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTI2MjYxNzhiODRkYmQzOTRjZjI0MDk0NjcyMTAyODJlNTIxMDMyMTc2ZGIyMWIyODFmZGM4YWU5Y2JlMmIyZiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 300,
+            "table": "Main",
+            "r": "Slayer Lv.3"
         },
         "Null Atom": {
             "locked": false,
-            "id": "wooden_button",
-            "xpRequired": 10120
+            "xpRequired": 10120,
+            "w4": 700,
+            "table": "Main",
+            "r": "Slayer Lv.4",
+            "image": "enchanted_oak_button.gif"
         },
         "Hazmat Enderman": {
             "locked": false,
             "xpRequired": 32202,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTQxNzMzNTczMiwKICAicHJvZmlsZUlkIiA6ICJlM2I0NDVjODQ3ZjU0OGZiOGM4ZmEzZjFmN2VmYmE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5pRGlnZ2VyVGVzdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MWU3Mjg5MGE3OWU1MDBjZjEzYTk3ZDEzNzRjNWFjOGE0ZjE1YTllMGQ2ODg1OTk3ZmM2ZjJlM2MxMTI1NGMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 220,
+            "table": "Main",
+            "r": "Slayer Lv.4"
         },
         "Pocket Espresso Machine": {
             "locked": false,
             "xpRequired": 128809,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY5Mzc3MTY1NDc2MCwKICAicHJvZmlsZUlkIiA6ICJkN2Y4OTAyMWMxNmQ0ZjFhODg3ODQyNDQyZjc3NGI0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYW5kYXRvSG9wZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82NjYwNzBjZTAzYTU0NWVlNGQyNjNiY2YyN2YzNjMzOGQyNDlkN2NiN2EyMzc2ZjkyYzE2NzNhZTEzNGUwNGI2IgogICAgfQogIH0KfQ=="
+            "w4": 55,
+            "table": "Main",
+            "r": "Slayer Lv.4"
         },
-        "Enchanted Book (Smarty Pants I)": {
+        "Smarty Pants I": {
             "locked": false,
-            "xpRequired": 28338
+            "xpRequired": 28338,
+            "w4": 250,
+            "table": "Main",
+            "r": "Slayer Lv.5",
+            "image": "enchanted_book.gif"
         },
         "◆ End Rune I": {
             "locked": false,
             "xpRequired": 75505,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyODYzNTU3NDI0OSwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IxMWZiOTBkYjdmNTdiZWI0MzU5NTQwMTNiMWM3ZWY3NzZjNmJkOTZjYmYzMzA4YWE4ZWJhYzI5NTkxZWJiZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 100,
+            "table": "Extra",
+            "r": "Slayer Lv.5",
+            "image": "end_rune.png"
         },
         "Handy Blood Chalice": {
             "locked": false,
             "xpRequired": 283380,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MjMzNTQwMTA2OCwKICAicHJvZmlsZUlkIiA6ICIzOTg5OGFiODFmMjU0NmQxOGIyY2ExMTE1MDRkZGU1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YjJjYTExMTUwNGRkZTUwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQzMWNkN2VkNGU0YmYwN2MzZGZkOWJhNDk4NzA4ZTczMGU2OWQ4MDczMzVhZmZhYmMxMmQ4N2ZmNTQyZjZhODgiCiAgICB9CiAgfQp9"
+            "w4": 25,
+            "table": "Main",
+            "r": "Slayer Lv.5"
         },
         "Sinful Dice": {
             "locked": false,
             "xpRequired": 108992,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyNjQ2MjgwNTg4MywKICAicHJvZmlsZUlkIiA6ICJkYmNlZjMyZjI5ZDc0Y2UzOTUzOWMwYjBhMTE1YjZiZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJyYW1waXJlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzViN2E4ODRmZWE3OTJiODNiMjdiMDY0YmU3ZTQzNjAyMzY4MWNmZTQyNTEwZDIyOTdkNDhkZmRkNzVmZmIyOTYiCiAgICB9CiAgfQp9"
+            "w4": 65,
+            "table": "Main",
+            "r": "Slayer Lv.6"
         },
         "Exceedingly Rare Ender Artifact Upgrade": {
             "locked": false,
             "xpRequired": 1771125,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjQzNTAxODQ5MywKICAicHJvZmlsZUlkIiA6ICIwZjczMDA3NjEyNGU0NGM3YWYxMTE1NDY5YzQ5OTY3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPcmVfTWluZXIxMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1OTIzMWE5NDY5ODdlYTUzMTQxNzg5YTA5NDk2ZjA5OGQ2ZWNhYzQxMmEwMWUwYTI0YzkwNmE5OWZkYmQ5YSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 4,
+            "table": "Main",
+            "r": "Slayer Lv.6"
         },
         "Void Conqueror Enderman Skin": {
             "locked": false,
             "xpRequired": 302020,
-            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1ODY5MTE5MTcyODAsInByb2ZpbGVJZCI6IjNmYzdmZGY5Mzk2MzRjNDE5MTE5OWJhM2Y3Y2MzZmVkIiwicHJvZmlsZU5hbWUiOiJZZWxlaGEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhmZmY0MWUxYWZjNTk3YjE0Zjc3YjhlNDRlMmExMzRkYWJlMTYxYTE1MjZhZGU4MGU2MjkwZjJkZjMzMWRjMTEifX19"
+            "w4": 25,
+            "table": "Extra",
+            "r": "Slayer Lv.7"
         },
         "Etherwarp Merger": {
             "locked": false,
             "xpRequired": 118075,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjA3MTMyOCwKICAicHJvZmlsZUlkIiA6ICI2NWUxN2M2Njk5NDU0ODQxYTdhNjc4ZWY2YzBhNGY1ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJPbGRSZWRUViIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zZTUzMTRmNDkxOTY5MWNjYmY4MDc3NDNkYWU0N2FlNDVhYzJlM2ZmMDhmNzllZWNkZDQ1MmZlNjAyZWZmN2Y2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 60,
+            "table": "Main",
+            "r": "Slayer Lv.7"
         },
         "◆ Enchant Rune I": {
             "locked": false,
             "xpRequired": 1078642,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY3MDQ3OTgyMTg3NCwKICAicHJvZmlsZUlkIiA6ICJmODFhNzJhZWZjMjY0MjU0YTQ5NzE0OWYzMjJiZjJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXJsYW5fODgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlmZmFjZWM2ZWU1YTIzZDljYjI0YTJmZTlkYzE1YjI0NDg4ZjVmNzEwMDY5MjQ1NjBiZjEyMTQ4NDIxYWU2ZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 7,
+            "table": "Extra",
+            "r": "Slayer Lv.7",
+            "image": "enchant_rune.png"
         },
-        "Enchanted Book (Ender Slayer VII)": {
+        "Judgement Core": {
             "locked": false,
-            "xpRequired": 3542250
+            "xpRequired": 1078642,
+            "w4": 8,
+            "table": "Main",
+            "r": "Slayer Lv.7"
+        },
+        "End Stone Idol": {
+            "locked": false,
+            "xpRequired": 3542250,
+            "w4": 2,
+            "table": "Main",
+            "r": "Slayer Lv.7"
         }
     },
     "Vampire": {
-        "Enchanted Book Bundle": {
+        "Sangria Dye": {
+            "dye": true,
+            "table": "Handled Separately",
             "locked": false,
-            "xpRequired": 12525,
-            "skullTexture": "eyJ0aW1lc3RhbXAiOjE1MTgyODU4NTc4NDQsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U1YmUyMmI1ZDRhODc1ZDc3ZGYzZjc3MTBmZjQ1NzhlZjI3OTM5YTk2ODRjYmRiM2QzMWQ5NzNmMTY2ODQ5In19fQ=="
+            "xpRequired": 750000,
+            "w4": 0.0025,
+            "w5": 0.01,
+            "r": "None"
+        },
+        "Quantum Book Bundle": {
+            "locked": false,
+            "xpRequired": 1687,
+            "w4": 20,
+            "w5": 20,
+            "table": "Main",
+            "r": "Slayer Lv.2"
         },
         "◆ Soultwist Rune I": {
             "locked": false,
             "xpRequired": 1912,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY4MTUxOTM1Mjc5NCwKICAicHJvZmlsZUlkIiA6ICI4N2YzOGM1MWE4Yzc0MmNmYTY2YTgxNWExZTI2NzMzYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCZWR3YXJzQ3V0aWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVmZmRmYmQ0OTBmYzczMTBkNjFhMWM0YzM1YTRlMGNkMmY5ZmNjYzEyMzljNmE0YmNkN2RlYzA1ZTI1ZWE2NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 20,
+            "w5": 20,
+            "table": "Extra",
+            "r": "Slayer Lv.2",
+            "image": "soultwist_rune.png"
         },
         "Bubba Blister": {
             "locked": false,
             "xpRequired": 2250,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY3MjQyMjMxMTU2NywKICAicHJvZmlsZUlkIiA6ICJlOWRlMDE0NjExZDI0NGY5OTVjNmNiMjhkMDk5MWExNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbGl6YWJldGhUcnVzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Y2I1NzI3Yjk4NmMzNmUwNzU4MjE0OGI4ODYxMDJjZjgwNzBiMGVlM2FhMzc3MWIyNDY0MzkzZjU4OGE4MzJkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 15,
+            "w5": 15,
+            "table": "Main",
+            "r": "Slayer Lv.3"
         },
         "Fang-tastic Chocolate Chip": {
             "locked": false,
-            "id": "cookie",
-            "xpRequired": 2250
+            "xpRequired": 2250,
+            "w4": 15,
+            "w5": 15,
+            "table": "Main",
+            "r": "Slayer Lv.3"
         },
         "Guardian Lucky Block": {
             "locked": false,
             "xpRequired": 3600,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjAxOTE1NDMzNiwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDZlZjIxYzg1NzVhMzA2OTk5MTQyYjA4MTRmMTYzY2I0MDNlYzBmYTUxYmVjYTgxZGQwNzRiMDJkZmUyNjZhZiIKICAgIH0KICB9Cn0="
+            "w4": 10,
+            "w5": 10,
+            "table": "Main",
+            "r": "Slayer Lv.4"
         },
         "McGrubber's Burger": {
             "locked": false,
             "xpRequired": 18450,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MTE2Mzc3MTMxMCwKICAicHJvZmlsZUlkIiA6ICJkZjY2OWIyOGFmNWE0MTNjODFhNjcwOGQ0ZDIyM2FlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYW5nX3FpbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDMzZGRiOTJjYjZiM2E3OTI4MGI4YmRjZWQ4OTc2YWVhYjEzYTRiZmZlYWVmMmQ0NmQ4MjhiZDkxZGVlMGYzZSIKICAgIH0KICB9Cn0="
+            "w4": 2,
+            "w5": 2,
+            "table": "Main",
+            "r": "Slayer Lv.5",
+            "image": "burger.png"
         },
         "Unfanged Vampire Part": {
             "locked": false,
             "xpRequired": 18450,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjM0MTc0MiwKICAicHJvZmlsZUlkIiA6ICJhYWZmMDUwYTExOTk0NzM1YjEyNDVlNDk0MGFlZjY4NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMYXN0SW1tb3J0YWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE4ODNlYjVlNDdjZWVlZDAyMDYzZmI4ZWMwZjc1ODQ3MTdhYzhjNzk1MjFhZTMyY2YwNjA2ZWJjZjc0MGU3MCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 2,
+            "w5": 2,
+            "table": "Main",
+            "r": "Slayer Lv.5"
+        },
+        "The One Book Bundle": {
+            "locked": false,
+            "xpRequired": 12525,
+            "w5": 3,
+            "table": "Main",
+            "r": "Slayer Lv.5"
         }
     },
     "Blaze": {
         "Flame Dye": {
             "dye": true,
+            "table": "Handled Separately",
             "locked": false,
             "xpRequired": 75000000,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTc0MTE2MTA5ODA0MSwKICAicHJvZmlsZUlkIiA6ICJmZDIwMGYwMDE4OTI0NzgxODI5OWIzZjE5Yzc4Y2E3MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ0dXNnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwNzIyNTBjNjIzN2ZiYTRmN2FkNzk1YzU0YzAxYzAyNTQyZTJkNzk1MGQzOTIwMzI4MmUwY2M1MTA5NWRlZGUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 0.0002,
+            "r": "None"
         },
         "Enchanted Blaze Powder": {
             "locked": false,
-            "id": "blaze_powder",
-            "xpRequired": 2351
+            "xpRequired": 2351,
+            "w4": 2700,
+            "am4": 28,
+            "table": "Extra",
+            "r": "None",
+            "image": "enchanted_blaze_powder.gif"
         },
         "◆ Lavatears Rune I": {
             "locked": false,
             "xpRequired": 21660,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwNDcyMTAxMiwKICAicHJvZmlsZUlkIiA6ICJmNmYxY2IxMmYzNDU0MDRlYjZlNjU2NGE2ZDlmMjU2NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdXJlbGl1c0dlbWluaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YzhjY2Q1Zjg2M2Q4MmJiMDk3YjkyNmJjNWY0Y2NhOTdiMTlmNDZlMTFiM2EzYTU5ZDAwMWFkYjg5ODg2NzczIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 450,
+            "table": "Extra",
+            "r": "None",
+            "image": "lavatears_rune.png"
         },
-        "Wisp's Ice-Flavored Water I Splash Potion": {
+        "Wisp's Ice-Flavored Water I": {
             "locked": false,
-            "id": "potion",
-            "xpRequired": 14270
+            "xpRequired": 14270,
+            "w4": 500,
+            "am4": 5,
+            "table": "Main",
+            "r": "None",
+            "image": "splash_potion_of_water_breathing.gif"
         },
         "Bundle of Magma Arrows": {
             "locked": false,
             "xpRequired": 4756,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc0OTYwNDQ3NCwKICAicHJvZmlsZUlkIiA6ICIyNDIyZWM1ZWFiZDM0MDQ5YmYzNjBlOTFiMTFhMmFmZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJsYXJnZWJyZWFzdHMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjRkZmFmZTdhYjhlODY5NWE1NmQzMWNjODY2NjcwNWQ2MWVkOTNiMWM1MTkxMGMyMmY0YTk1MGViNTVmMDRkZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 1500,
+            "table": "Main",
+            "r": "Slayer Lv.1"
         },
         "Mana Disintegrator": {
             "locked": false,
             "xpRequired": 10192,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc5NzgyNzMyNCwKICAicHJvZmlsZUlkIiA6ICI3NTA5NzZmODRmMDE0NWFhYTc0MzAwYWJhMzc5MTIzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwY2hlYXRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxNTY1YzFjMjY1ZjUwMzk4YzA2NDZhOWI3ZDY0Mjg5NTIyYzBiMDg5MDkxYmE1YTA0ZjFkMThiYWE4NjBkODUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 700,
+            "table": "Main",
+            "r": "Slayer Lv.2"
         },
         "Scorched Books": {
             "locked": false,
             "xpRequired": 17837,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1MDAyODQxNjk4MSwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ2ZWU3ZTkwNjY4NmFiZDVlYzE5MmIwNzkzMTRjNDVmMWZiODE3MWQ5ZTEzY2FhNGNmOWY2M2FmYzIyNjNmZDUiCiAgICB9CiAgfQp9"
+            "w4": 400,
+            "table": "Main",
+            "r": "Slayer Lv.2"
         },
         "Kelvin Inverter": {
             "locked": false,
             "xpRequired": 14270,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY4NTkwODkzNTIxMywKICAicHJvZmlsZUlkIiA6ICIxZGQ4YmU5YTljMDc0OGU4OTZjZjgwNDNjNTMxMWEzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaWdhQ2F0VG95IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0NWJhNGIxMGVkNzZjM2YxM2Q0NmJjOTlmMjRiNTc0M2U5MmRkYmQ2ZjY3MTZjMzg1YzA4MzA1ZmRiYzk5OWUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 500,
+            "table": "Main",
+            "r": "Slayer Lv.3"
         },
         "Gabagool Distillate": {
             "locked": false,
             "xpRequired": 10649,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc0OTAwMzY1MSwKICAicHJvZmlsZUlkIiA6ICI1NTZjNDNmOWJmZjU0MjI1OTI0NDU5M2EwN2QyYzE1MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHaW50b2tsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FmZDIzMzNiNWVlNDllYzVlM2FmNGM2ZjQ1NTUwYmM0NGY4OGJmYjRhZDBhYjI3YmFhMzM5YTA0Yjk0Mzk3YTIiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 670,
+            "am4": 28,
+            "table": "Main",
+            "r": "Slayer Lv.3"
         },
         "Scorched Power Crystal": {
             "locked": false,
             "xpRequired": 12558,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1OTc5NzQwMDEzNCwKICAicHJvZmlsZUlkIiA6ICI0NDA3OTk4M2Q0ZTU0MTZiYmY4NzAzNDU2YzczYTc5MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBeWFhbjEzMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mMDk5ZDRlMjVhNTY5ZTJkMDE4YmQ4ZDdlMWE0MGFkMmNjYmM5YmQxZmQyZWQ0ODY4OGJjYzNmNjJhOTYyMTNhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+            "w4": 600,
+            "table": "Main",
+            "r": "Slayer Lv.4"
         },
         "Archfiend Dice": {
             "locked": false,
             "xpRequired": 37675,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMjczNTcwMSwKICAicHJvZmlsZUlkIiA6ICJiMTM1MDRmMjMxOGI0OWNjYWFkZDcyYWVhYmMyNTQ1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeXBrZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGNmM2IwZTc0OGMwZjBhMzNiYTMzNDMyNzQ4MWMzNjQ2ZTE3NjBmNGVhZjcxMjVhNTJiOGIxNGZmM2E0MTRmIgogICAgfQogIH0KfQ=="
+            "w4": 200,
+            "table": "Main",
+            "r": "Slayer Lv.4"
         },
-        "Enchanted Book (Fire Aspect III)": {
+        "Fire Aspect III": {
             "locked": false,
-            "xpRequired": 32508
+            "xpRequired": 32508,
+            "w4": 250,
+            "table": "Main",
+            "r": "Slayer Lv.5",
+            "image": "enchanted_book.gif"
         },
         "◆ Fiery Burst Rune I": {
             "locked": false,
             "xpRequired": 243675,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY1Nzk5NDkxODg4NiwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ2MjBlNGUzZDNhYmZlZDZhZDgxYTU4YTU2YmNkMDg1ZDllOWVmYzgwM2NhYmIyMWZhNmM5ZTM5NjllMmQyZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
+            "w4": 40,
+            "table": "Extra",
+            "r": "Slayer Lv.5",
+            "image": "fiery_burst_rune.png"
         },
-        "❂ Flawed Opal Gemstone": {
+        "Flawed Opal Gemstone": {
             "locked": false,
             "xpRequired": 14776,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MTk4MzkyNCwKICAicHJvZmlsZUlkIiA6ICI4YjA2ZmU5ZGNjNjg0NDNmYWNmM2QzODA0NWNkNTMyNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYXN0aWVsY3ZyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VhZGMzYmNkZDdjNzAxYjYzZjhiOGI0YTk2ZTQyOTMxNmEwODM4ODY2OWQ5YTk4YzFhOTg3OTE3MjliOTYxZGYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 550,
+            "am4": 320,
+            "table": "Main",
+            "r": "Slayer Lv.5"
         },
-        "Enchanted Book (Duplex I)": {
+        "Duplex I": {
             "locked": false,
-            "xpRequired": 23220
+            "xpRequired": 23220,
+            "w4": 350,
+            "table": "Main",
+            "r": "Slayer Lv.6",
+            "image": "enchanted_book.gif"
         },
         "High Class Archfiend Dice": {
             "locked": false,
             "xpRequired": 194939,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTUwMjc5NTIzNCwKICAicHJvZmlsZUlkIiA6ICJjZjc4YzFkZjE3ZTI0Y2Q5YTIxYmU4NWQ0NDk5ZWE4ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXR0c0FybW9yU3RhbmRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxMGIzMDc2YTZjODk5N2ZlNzI0Yzk2NmJhZTVmYmI0ODEwNWI1MGRjODIxNjYzOTJkOTU0YjQxOWFlZDAwZjYiCiAgICB9CiAgfQp9"
+            "w4": 50,
+            "table": "Extra",
+            "r": "Slayer Lv.7"
         },
         "Wilson's Engineering Plans": {
             "locked": false,
-            "id": "paper",
-            "xpRequired": 478058
+            "xpRequired": 478058,
+            "w4": 17,
+            "table": "Main",
+            "r": "Slayer Lv.7",
+            "image": "enchanted_paper.gif"
         },
         "Subzero Inverter": {
             "locked": false,
             "xpRequired": 478058,
-            "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcyMDA0MjAzNzMzMywKICAicHJvZmlsZUlkIiA6ICJmZGRmY2M4NjZmNWQ0N2JiOWE1ZmIwYmRiMzViYjQyYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYWRpcmNhbnBlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4ZjgwOTkwOWE0ZDRjZGU3ZjJhNzlkOTk4MjA1ZTQ4MTRiY2JiN2Q0YmM2MDJhMWQ1ODI2MjI0YWUwMjE3ODYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+            "w4": 17,
+            "table": "Main",
+            "r": "Slayer Lv.7"
         }
     },
     "F1": {
@@ -1875,4 +2158,3 @@
         }
     }
 }
-
