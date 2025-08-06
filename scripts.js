@@ -97,6 +97,7 @@ class Toggler {
       img.style.height = "40px";
       img.style.objectFit = "contain";
       img.style.display = "block";
+      img.loading = "lazy";
       outerWrapper.appendChild(img);
     }
 
@@ -232,6 +233,7 @@ class InputBox {
       img.style.height = "40px";
       img.style.objectFit = "contain";
       img.style.display = "block";
+      img.loading = "lazy";
       outerWrapper.appendChild(img);
     }
 
@@ -307,6 +309,7 @@ class DropDown {
       img.style.height = "40px";
       img.style.objectFit = "contain";
       img.style.display = "block";
+      img.loading = "lazy";
       outerWrapper.appendChild(img);
     }
 
@@ -399,6 +402,7 @@ class ReactiveTable {
         img.style.maxWidth = "50px";
         img.style.maxHeight = "50px";
         img.style.objectFit = "contain";
+        img.loading = "lazy";
         td.appendChild(img);
       } else {
         td.textContent = cellValue;
@@ -424,6 +428,7 @@ class ReactiveTable {
       img.style.maxWidth = "50px";
       img.style.maxHeight = "50px";
       img.style.objectFit = "contain";
+      img.loading = "lazy";
       td.appendChild(img);
     } else {
       td.textContent = value;
