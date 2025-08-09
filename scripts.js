@@ -736,6 +736,8 @@ async function waitUntilOk(url) {
 }
 
 window.addEventListener("DOMContentLoaded", () => {
+  window.selectLeftTab = selectLeftTab;
+  selectLeftTab("experiment");
   (async () => {
     const RELOAD_FLAG = "preloadRetryDone";
     const alreadyReloaded = sessionStorage.getItem(RELOAD_FLAG) === "1";
@@ -762,9 +764,7 @@ window.addEventListener("DOMContentLoaded", () => {
         console.error("preloadImagesWithCache failed after retry:", err);
       }
     }
-    window.selectLeftTab = selectLeftTab;
-    selectLeftTab("experiment");
-  })();
+  })()
 });
 
 function handleViewportLock() {
@@ -775,6 +775,7 @@ function handleViewportLock() {
 window.addEventListener("resize", handleViewportLock);
 window.addEventListener("orientationchange", handleViewportLock);
 document.addEventListener("DOMContentLoaded", handleViewportLock);
+
 
 
 
