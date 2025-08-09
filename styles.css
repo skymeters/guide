@@ -179,10 +179,6 @@ body {
   max-width: 100%;
 }
 
-.dungeon-button {
-  width: 85px;
-}
-
 .right-button:hover {
   background-color: #3c4e70;
 }
@@ -349,4 +345,52 @@ body {
   transform: scale(1.5);
 }
 
+.dungeon-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(0, 85px));
+  gap: 8px;
+  max-width: calc(7 * 85px + 6 * 8px); /* Adjust for wrap at 4 buttons */
+}
 
+.dungeon-button {
+  width: 100%;
+  max-width: 85px;
+}
+
+/* ===== Portrait lock overlay ===== */
+#portrait-blocker {
+  position: fixed;
+  inset: 0;
+  display: none;
+  z-index: 2000;
+  background: rgba(2, 4, 8, 0.55);
+  backdrop-filter: blur(60px);
+}
+
+#portrait-blocker .portrait-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #0ea5e9;
+  color: #082032;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 18px;
+  border-radius: 12px;
+  width: min(90vw, 520px);
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  border: 1px solid rgba(255,255,255,.25);
+}
+
+body.portrait-active .top-bar,
+body.portrait-active .sidebar,
+body.portrait-active .main-scroll-area {
+  filter: blur(60px);
+  pointer-events: none;
+  user-select: none;
+}
+
+body.portrait-active #portrait-blocker {
+  display: block;
+}
