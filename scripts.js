@@ -726,24 +726,20 @@ async function waitUntilOk(url) {
   while (true) {
     try {
       const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), 5000);
+      const timer = setTimeout(() => controller.abort(), 1000);
       const res = await fetch(url, { signal: controller.signal, cache: "no-store" });
       clearTimeout(timer);
       if (res.ok) return true;
-    } catch (_) {}
+    } catch (_) { }
     await new Promise(r => setTimeout(r, 1000));
   }
 }
 
-async function init() {
-  await preloadImagesWithCache();
-  window.selectLeftTab = selectLeftTab;
-}
-
 window.addEventListener("DOMContentLoaded", async () => {
   await startApiWakeLoop();
+  await preloadImagesWithCache();
+  window.selectLeftTab = selectLeftTab;
   selectLeftTab('experiment');
-  init();
 });
 
 function handleViewportLock() {
@@ -754,6 +750,7 @@ function handleViewportLock() {
 window.addEventListener("resize", handleViewportLock);
 window.addEventListener("orientationchange", handleViewportLock);
 document.addEventListener("DOMContentLoaded", handleViewportLock);
+
 
 
 
