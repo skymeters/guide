@@ -254,7 +254,7 @@ function updateMF() {
 }
 
 //dungeons
-async function updateDungeons() {
+async function updateDungeons(switched = false) {
   const meterData = await meterDataPromise;
   
   if (switched) {
@@ -287,6 +287,9 @@ function updateVincent() {
     case "slayer":
       updateSlayerTier();
       return;
+    case "dungeons":
+      updateDungeons();
+      return;
   }
 }
 
@@ -301,6 +304,9 @@ function pity() {
       return;
     case "slayer":
       updateSlayerTier();
+      return;
+    case "dungeons":
+      updateDungeons();
       return;
   }
 }
@@ -702,7 +708,7 @@ function selectMode(mode) {
       updateSlayerTier(true);
       return;
     case "dungeons":
-      updateDungeons();
+      updateDungeons(true);
       return;
   }
 }
@@ -748,5 +754,6 @@ function handleViewportLock() {
 window.addEventListener("resize", handleViewportLock);
 window.addEventListener("orientationchange", handleViewportLock);
 document.addEventListener("DOMContentLoaded", handleViewportLock);
+
 
 
