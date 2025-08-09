@@ -729,17 +729,16 @@ async function waitUntilOk(url) {
   }
 }
 
-window.addEventListener("DOMContentLoaded", () => {
-  startApiWakeLoop();
-  selectLeftTab('experiment');
-});
-
 async function init() {
-  await preloadImagesWithCache(); // ⏳ Wait until all images are cached
+  await preloadImagesWithCache();
   window.selectLeftTab = selectLeftTab;
 }
 
-init();
+window.addEventListener("DOMContentLoaded", async () => {
+  await startApiWakeLoop();
+  selectLeftTab('experiment');
+  init();
+});
 
 function handleViewportLock() {
   const isPortrait = window.innerWidth < window.innerHeight;
@@ -749,4 +748,5 @@ function handleViewportLock() {
 window.addEventListener("resize", handleViewportLock);
 window.addEventListener("orientationchange", handleViewportLock);
 document.addEventListener("DOMContentLoaded", handleViewportLock);
+
 
