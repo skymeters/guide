@@ -735,11 +735,36 @@ async function waitUntilOk(url) {
   }
 }
 
-window.addEventListener("DOMContentLoaded", async () => {
-  await startApiWakeLoop();
-  await preloadImagesWithCache();
-  window.selectLeftTab = selectLeftTab;
-  selectLeftTab('experiment');
+window.addEventListener("DOMContentLoaded", () => {
+  (async () => {
+    const RELOAD_FLAG = "preloadRetryDone";
+    const alreadyReloaded = sessionStorage.getItem(RELOAD_FLAG) === "1";
+    startApiWakeLoop().catch(err => console.error("startApiWakeLoop error:", err));
+
+    let cancelWatchdog = () => {};
+    if (!alreadyReloaded) {
+      const t = setTimeout(() => {
+        sessionStorage.setItem(RELOAD_FLAG, "1");
+        window.location.reload();
+      }, 5000);
+      cancelWatchdog = () => clearTimeout(t);
+    }
+    try {
+      await preloadImagesWithCache();
+      cancelWatchdog();
+    } catch (err) {
+      cancelWatchdog();
+      if (!alreadyReloaded) {
+        sessionStorage.setItem(RELOAD_FLAG, "1");
+        window.location.reload();
+        return;
+      } else {
+        console.error("preloadImagesWithCache failed after retry:", err);
+      }
+    }
+    window.selectLeftTab = selectLeftTab;
+    selectLeftTab("experiment");
+  })();
 });
 
 function handleViewportLock() {
@@ -750,6 +775,7 @@ function handleViewportLock() {
 window.addEventListener("resize", handleViewportLock);
 window.addEventListener("orientationchange", handleViewportLock);
 document.addEventListener("DOMContentLoaded", handleViewportLock);
+
 
 
 
