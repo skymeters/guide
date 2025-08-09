@@ -740,16 +740,36 @@
             "r": "Slayer Lv.7"
         }
     },
+    "slayerWeightSum": {
+        "Zombie4Main": 12327,
+        "Zombie4Extra": 13180,
+        "Zombie5Main": 14527,
+        "Zombie5Extra": 15380,
+        "Spider4Main": 12027,
+        "Spider4Extra": 12910,
+        "Spider5Main": 14043,
+        "Spider5Extra": 14976,
+        "Wolf4Main": 12327,
+        "Wolf4Extra": 13190,
+        "Vampire4Main": 164,
+        "Vampire4Extra": 184,
+        "Vampire5Main": 167,
+        "Vampire5Extra": 187,
+        "Enderman4Main": 14169,
+        "Enderman4Extra": 15101,
+        "Blaze4Main": 16254,
+        "Blaze4Extra": 19494
+    },
     "F1": {
-        "Enchanted Book (Rejuvenate I)": {
+        "Rejuvenate I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Combo I)": {
+        "Combo I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain I)": {
+        "No Pain No Gain I": {
             "locked": false,
             "xpRequired": null
         },
@@ -758,11 +778,11 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDU5MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YjZiZWFjNTczNjVjYWY0NmYwMzdmM2QyYTNhNDU3ZjZjYWZlNjQ3NTdiYWYxNGU4OTkzY2QyZGExOGNmZjciCiAgICB9CiAgfQp9"
         },
-        "Enchanted Book (Infinite Quiver VI)": {
+        "Infinite Quiver VI": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Feather Falling VI)": {
+        "Feather Falling VI": {
             "locked": false,
             "xpRequired": null
         },
@@ -791,7 +811,7 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Bank I)": {
+        "Bank I": {
             "locked": false,
             "xpRequired": null
         },
@@ -800,17 +820,17 @@
             "id": "blaze_rod",
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Jerry I)": {
+        "Ultimate Jerry I": {
             "locked": false,
             "xpRequired": null
         }
     },
     "F2": {
-        "Enchanted Book (Rejuvenate I)": {
+        "Rejuvenate I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise I)": {
+        "Ultimate Wise I": {
             "locked": false,
             "xpRequired": null
         },
@@ -819,11 +839,11 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Combo I)": {
+        "Combo I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain I)": {
+        "No Pain No Gain I": {
             "locked": false,
             "xpRequired": null
         },
@@ -852,7 +872,7 @@
             "id": "stone_sword",
             "xpRequired": null
         },
-        "Enchanted Book (Bank I)": {
+        "Bank I": {
             "locked": false,
             "xpRequired": null
         },
@@ -863,23 +883,23 @@
         }
     },
     "F3": {
-        "Enchanted Book (Last Stand I)": {
+        "Last Stand I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Rejuvenate II)": {
+        "Rejuvenate II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise I)": {
+        "Ultimate Wise I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Bank II)": {
+        "Bank II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom I)": {
+        "Wisdom I": {
             "locked": false,
             "xpRequired": null
         },
@@ -888,11 +908,11 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Combo I)": {
+        "Combo I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain I)": {
+        "No Pain No Gain I": {
             "locked": false,
             "xpRequired": null
         },
@@ -931,29 +951,29 @@
             "id": "leather_leggings",
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Jerry II)": {
+        "Ultimate Jerry II": {
             "locked": false,
             "xpRequired": null
         }
     },
     "F4": {
-        "Enchanted Book (Last Stand I)": {
+        "Last Stand I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Rejuvenate II)": {
+        "Rejuvenate II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise I)": {
+        "Ultimate Wise I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Bank II)": {
+        "Bank II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom I)": {
+        "Wisdom I": {
             "locked": false,
             "xpRequired": null
         },
@@ -962,11 +982,11 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Combo I)": {
+        "Combo I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain I)": {
+        "No Pain No Gain I": {
             "locked": false,
             "xpRequired": null
         },
@@ -990,7 +1010,7 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTAxMjc4ODI0MywKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZmUwOThjNzM2NmZmYWJhYzQ4ZjdkNDY1MDI3MjEyZjZhNzdlZGQ3M2FjYWZjYWQyYzA4NzVmMTFhMDMxYjIiCiAgICB9CiAgfQp9"
         },
-        "Enchanted Book (Rend II)": {
+        "Rend II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1014,21 +1034,21 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTg2MjAyNjE5OSwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhkOWNjYzY3MDY3N2QwY2ViYWFkNDA1OGQ2YWFmOWFjZmFiMDlhYmVhNWQ4NjM3OWEwNTk5MDJmMmZlMjI2NTUiCiAgICB9CiAgfQp9"
         },
-        "Enchanted Book (Ultimate Jerry II)": {
+        "Ultimate Jerry II": {
             "locked": false,
             "xpRequired": null
         }
     },
     "F5": {
-        "Enchanted Book (Rejuvenate III)": {
+        "Rejuvenate III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Last Stand II)": {
+        "Last Stand II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise II)": {
+        "Ultimate Wise II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1037,7 +1057,7 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTA2MTU4ODI0NSwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3YzQwMzZmODBiZjM2MDkxODBjN2M0YTk1Njg4NTNmZDgxNWYxNTRhZDg0MzhiOTJmMzg1MTAxOTgzNWIwNzAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
         },
-        "Enchanted Book (Wisdom II)": {
+        "Wisdom II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1046,27 +1066,27 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Overload I)": {
+        "Overload I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Legion I)": {
+        "Legion I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Lethality VI)": {
+        "Lethality VI": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Combo II)": {
+        "Combo II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain II)": {
+        "No Pain No Gain II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Bank III)": {
+        "Bank III": {
             "locked": false,
             "xpRequired": null
         },
@@ -1100,7 +1120,7 @@
             "id": "iron_sword",
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Jerry III)": {
+        "Ultimate Jerry III": {
             "locked": false,
             "xpRequired": null
         },
@@ -1121,19 +1141,19 @@
         }
     },
     "F6": {
-        "Enchanted Book (Rejuvenate III)": {
+        "Rejuvenate III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Last Stand II)": {
+        "Last Stand II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise II)": {
+        "Ultimate Wise II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom II)": {
+        "Wisdom II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1142,19 +1162,19 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Combo II)": {
+        "Combo II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain II)": {
+        "No Pain No Gain II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Bank III)": {
+        "Bank III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Swarm I)": {
+        "Swarm I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1183,7 +1203,7 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTQ4MDAxOTQ1MCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYzhiNDdhMWE4ZjEwZDI5NTgzNjVlMTdhZjcyZWEyZTJlOTIyMGZlZmIzZDgwZDhmMzYxMTZhZjcxZWI0YWU3IgogICAgfQogIH0KfQ=="
         },
-        "Enchanted Book (Ultimate Jerry III)": {
+        "Ultimate Jerry III": {
             "locked": false,
             "xpRequired": null
         },
@@ -1229,23 +1249,23 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTMyNjI5NDg5NiwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmZjEwN2UyMGU5NWY1ZjZhYjYxYWU3M2RjNDI1MjNhMTEyZmM0NThjMzMzYTExNDgxMmIzMTNhMmI4ZGQ4YTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
         },
-        "Enchanted Book (Combo II)": {
+        "Combo II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Rejuvenate III)": {
+        "Rejuvenate III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Last Stand II)": {
+        "Last Stand II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Infinite Quiver VII)": {
+        "Infinite Quiver VII": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Soul Eater I)": {
+        "Soul Eater I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1254,19 +1274,19 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise II)": {
+        "Ultimate Wise II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Jerry III)": {
+        "Ultimate Jerry III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Bank III)": {
+        "Bank III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom II)": {
+        "Wisdom II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1305,7 +1325,7 @@
             "xpRequired": null,
             "skullTexture": null
         },
-        "Enchanted Book (No Pain No Gain II)": {
+        "No Pain No Gain II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1314,7 +1334,7 @@
             "id": "leather_leggings",
             "xpRequired": null
         },
-        "Enchanted Book (Feather Falling VII)": {
+        "Feather Falling VII": {
             "locked": false,
             "xpRequired": null
         },
@@ -1328,7 +1348,7 @@
             "id": "leather_chestplate",
             "xpRequired": null
         },
-        "Enchanted Book (One For All I)": {
+        "One For All I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1364,15 +1384,15 @@
         }
     },
     "M1": {
-        "Enchanted Book (Rejuvenate I)": {
+        "Rejuvenate I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Combo I)": {
+        "Combo I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain I)": {
+        "No Pain No Gain I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1381,11 +1401,11 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA0NDU5MDI3MiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YjZiZWFjNTczNjVjYWY0NmYwMzdmM2QyYTNhNDU3ZjZjYWZlNjQ3NTdiYWYxNGU4OTkzY2QyZGExOGNmZjciCiAgICB9CiAgfQp9"
         },
-        "Enchanted Book (Infinite Quiver VI)": {
+        "Infinite Quiver VI": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Feather Falling VI)": {
+        "Feather Falling VI": {
             "locked": false,
             "xpRequired": null
         },
@@ -1419,7 +1439,7 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Bank I)": {
+        "Bank I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1428,17 +1448,17 @@
             "id": "blaze_rod",
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Jerry I)": {
+        "Ultimate Jerry I": {
             "locked": false,
             "xpRequired": null
         }
     },
     "M2": {
-        "Enchanted Book (Ultimate Wise I)": {
+        "Ultimate Wise I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Rejuvenate I)": {
+        "Rejuvenate I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1447,11 +1467,11 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Combo I)": {
+        "Combo I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain I)": {
+        "No Pain No Gain I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1485,7 +1505,7 @@
             "id": "stone_sword",
             "xpRequired": null
         },
-        "Enchanted Book (Bank I)": {
+        "Bank I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1496,23 +1516,23 @@
         }
     },
     "M3": {
-        "Enchanted Book (Last Stand I)": {
+        "Last Stand I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Rejuvenate II)": {
+        "Rejuvenate II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise I)": {
+        "Ultimate Wise I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Bank II)": {
+        "Bank II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom I)": {
+        "Wisdom I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1521,11 +1541,11 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Combo I)": {
+        "Combo I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain I)": {
+        "No Pain No Gain I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1574,29 +1594,29 @@
             "id": "leather_leggings",
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Jerry II)": {
+        "Ultimate Jerry II": {
             "locked": false,
             "xpRequired": null
         }
     },
     "M4": {
-        "Enchanted Book (Last Stand I)": {
+        "Last Stand I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Rejuvenate II)": {
+        "Rejuvenate II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise I)": {
+        "Ultimate Wise I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Bank II)": {
+        "Bank II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom I)": {
+        "Wisdom I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1605,11 +1625,11 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Combo I)": {
+        "Combo I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain I)": {
+        "No Pain No Gain I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1643,7 +1663,7 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTAxMjc4ODI0MywKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZmUwOThjNzM2NmZmYWJhYzQ4ZjdkNDY1MDI3MjEyZjZhNzdlZGQ3M2FjYWZjYWQyYzA4NzVmMTFhMDMxYjIiCiAgICB9CiAgfQp9"
         },
-        "Enchanted Book (Rend II)": {
+        "Rend II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1667,17 +1687,17 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTg2MjAyNjE5OSwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhkOWNjYzY3MDY3N2QwY2ViYWFkNDA1OGQ2YWFmOWFjZmFiMDlhYmVhNWQ4NjM3OWEwNTk5MDJmMmZlMjI2NTUiCiAgICB9CiAgfQp9"
         },
-        "Enchanted Book (Ultimate Jerry II)": {
+        "Ultimate Jerry II": {
             "locked": false,
             "xpRequired": null
         }
     },
     "M5": {
-        "Enchanted Book (Rejuvenate III)": {
+        "Rejuvenate III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Last Stand II)": {
+        "Last Stand II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1686,7 +1706,7 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTA2MTU4ODI0NSwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk3YzQwMzZmODBiZjM2MDkxODBjN2M0YTk1Njg4NTNmZDgxNWYxNTRhZDg0MzhiOTJmMzg1MTAxOTgzNWIwNzAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
         },
-        "Enchanted Book (Ultimate Wise II)": {
+        "Ultimate Wise II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1695,15 +1715,15 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Overload I)": {
+        "Overload I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Legion I)": {
+        "Legion I": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Lethality VI)": {
+        "Lethality VI": {
             "locked": false,
             "xpRequired": null
         },
@@ -1712,15 +1732,15 @@
             "id": "leather_boots",
             "xpRequired": null
         },
-        "Enchanted Book (Combo II)": {
+        "Combo II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain II)": {
+        "No Pain No Gain II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom II)": {
+        "Wisdom II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1729,7 +1749,7 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYxOTM0NjY3MzMxNCwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMWFhMTRkZTljMTU4ZDM1MTM5NDljODVjYWJiOWUzNzg0OGI5ODRlYzNmYjViNDRhMzIxOWY0ZmI1OGEwMGRhIgogICAgfQogIH0KfQ=="
         },
-        "Enchanted Book (Bank III)": {
+        "Bank III": {
             "locked": false,
             "xpRequired": null
         },
@@ -1758,7 +1778,7 @@
             "id": "iron_sword",
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Jerry III)": {
+        "Ultimate Jerry III": {
             "locked": false,
             "xpRequired": null
         },
@@ -1790,19 +1810,19 @@
         }
     },
     "M6": {
-        "Enchanted Book (Rejuvenate III)": {
+        "Rejuvenate III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Last Stand II)": {
+        "Last Stand II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise II)": {
+        "Ultimate Wise II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom II)": {
+        "Wisdom II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1811,19 +1831,19 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Combo II)": {
+        "Combo II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (No Pain No Gain II)": {
+        "No Pain No Gain II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Bank III)": {
+        "Bank III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Swarm I)": {
+        "Swarm I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1852,7 +1872,7 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTQ4MDAxOTQ1MCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jYzhiNDdhMWE4ZjEwZDI5NTgzNjVlMTdhZjcyZWEyZTJlOTIyMGZlZmIzZDgwZDhmMzYxMTZhZjcxZWI0YWU3IgogICAgfQogIH0KfQ=="
         },
-        "Enchanted Book (Ultimate Jerry III)": {
+        "Ultimate Jerry III": {
             "locked": false,
             "xpRequired": null
         },
@@ -1908,23 +1928,23 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTU4OTMyNjI5NDg5NiwKICAicHJvZmlsZUlkIiA6ICJiZWNkZGIyOGEyYzg0OWI0YTliMDkyMmE1ODA1MTQyMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdFR2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFmZjEwN2UyMGU5NWY1ZjZhYjYxYWU3M2RjNDI1MjNhMTEyZmM0NThjMzMzYTExNDgxMmIzMTNhMmI4ZGQ4YTciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
         },
-        "Enchanted Book (Combo II)": {
+        "Combo II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Rejuvenate III)": {
+        "Rejuvenate III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Last Stand II)": {
+        "Last Stand II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Infinite Quiver VII)": {
+        "Infinite Quiver VII": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Soul Eater I)": {
+        "Soul Eater I": {
             "locked": false,
             "xpRequired": null
         },
@@ -1933,11 +1953,11 @@
             "id": "book",
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Wise II)": {
+        "Ultimate Wise II": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Ultimate Jerry III)": {
+        "Ultimate Jerry III": {
             "locked": false,
             "xpRequired": null
         },
@@ -1946,11 +1966,11 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTY2NDE2NjkxMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEwMjA0NDZhNGM0ZTQ2ODZiOGU1ZDBiZGU4Y2U1NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW01MTAyMDgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdjY2QzNmRjOGY3MmFkY2IxZjhjOGU2MWVlODJjZDk2ZWFkMTQwY2YyYTE2YTEzNjZiZTliNWE4ZTNjYzNmYyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9"
         },
-        "Enchanted Book (Bank III)": {
+        "Bank III": {
             "locked": false,
             "xpRequired": null
         },
-        "Enchanted Book (Wisdom II)": {
+        "Wisdom II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1984,7 +2004,7 @@
             "xpRequired": null,
             "skullTexture": null
         },
-        "Enchanted Book (No Pain No Gain II)": {
+        "No Pain No Gain II": {
             "locked": false,
             "xpRequired": null
         },
@@ -1993,7 +2013,7 @@
             "id": "leather_leggings",
             "xpRequired": null
         },
-        "Enchanted Book (Feather Falling VII)": {
+        "Feather Falling VII": {
             "locked": false,
             "xpRequired": null
         },
@@ -2007,7 +2027,7 @@
             "id": "leather_chestplate",
             "xpRequired": null
         },
-        "Enchanted Book (One For All I)": {
+        "One For All I": {
             "locked": false,
             "xpRequired": null
         },
@@ -2036,7 +2056,7 @@
             "xpRequired": null,
             "skullTexture": "ewogICJ0aW1lc3RhbXAiIDogMTY0NTg2MzU5NDY5MCwKICAicHJvZmlsZUlkIiA6ICI1YjY2YzNkZWZhYTI0NWMzYTcwNjM3OTA3NTQ0Yjg3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWFuX1JhaWNvMDgxNiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MTBmOWYxMDg1ZDQwNzE0MWViNzc2MTdhNGFiZGFhYTA4ZDhhZjMzYjk2MDIwMGZlOGMxMjZjMWQxNDQ1NjgyIgogICAgfQogIH0KfQ=="
         },
-        "Enchanted Book (Thunderlord VII)": {
+        "Thunderlord VII": {
             "locked": false,
             "xpRequired": null
         },
@@ -2089,7 +2109,7 @@
             "xpRequired": 10000,
             "w": 2500
         },
-        "Enchanted Book (Lapidary I)": {
+        "Lapidary I": {
             "locked": false,
             "xpRequired": 10000,
             "image": "enchanted_book.gif",
@@ -2115,7 +2135,7 @@
             "xpRequired": 20000,
             "w": 1450
         },
-        "Enchanted Book (Fortune IV)": {
+        "Fortune IV": {
             "locked": false,
             "xpRequired": 35000,
             "image": "enchanted_book.gif",
