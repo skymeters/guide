@@ -19,7 +19,6 @@
       <span class="logo-gradient">SkyMeters</span>
     </div>
     <div class="top-right">
-      <a class="btn-header des">Dungeons RNG Meters are soon to come!</a>
       <a href="https://github.com/skymeters/skymeters.github.io" target="_blank" class="btn-header">GitHub</a>
       <a href="https://discord.gg/DGg8ZJwD7X" target="_blank" class="btn-header">Discord</a>
       <a href="https://ko-fi.com/skymeters" target="_blank" class="btn-header kofi">☕ Buy me a coffee!</a>
@@ -43,21 +42,12 @@
       <div id="exp-toggle-bar"></div>
     </div>
   </div>
-  <script src="scripts.js"></script>
-  <script>
-    function checkScreenAndRedirect() {
-      if (window.innerWidth < 0.780) {
-        window.location.href = "https://skymeters.github.io/media/";
-      }
-    }
-
-    window.addEventListener("DOMContentLoaded", checkScreenAndRedirect);
-    window.addEventListener("resize", checkScreenAndRedirect);
-  </script>
+  <script type="module" src="scripts.js"></script>
+    <!-- Portrait lock overlay -->
+  <div id="portrait-blocker" role="dialog" aria-live="assertive" aria-modal="true">
+    <div class="portrait-box">
+      For smoother experience, please rotate your device to landscape or use a computer.
+    </div>
+  </div>
 </body>
 </html>
-
-
-
-
-
