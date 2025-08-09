@@ -2,14 +2,14 @@ import {Toggler, InputBox, DropDown, ReactiveTable} from "./classes.js"
 
 async function preloadImagesWithCache() {
   const cache = await caches.open("image-cache");
-  const versionRes = await fetch("http://localhost:10000/api/img_diff");
+  const versionRes = await fetch("https://app-d983.onrender.com/api/img_diff");
   const { version } = await versionRes.json();
 
   const cachedVersion = localStorage.getItem("image_version");
   const shouldReload = cachedVersion !== version;
 
   if (shouldReload) {
-    const res = await fetch("http://localhost:10000/api/Images");
+    const res = await fetch("https://app-d983.onrender.com/api/Images");
     const images = await res.json();
 
     for (const [filename, base64] of Object.entries(images)) {
@@ -707,7 +707,7 @@ function selectMode(mode) {
   }
 }
 
-async function startApiWakeLoop(url = "/hz") {
+async function startApiWakeLoop(url = "https://app-d983.onrender.com/hz") {
   document.body.classList.add("api-wait-active");
   try {
     await waitUntilOk(url);
@@ -749,3 +749,4 @@ function handleViewportLock() {
 window.addEventListener("resize", handleViewportLock);
 window.addEventListener("orientationchange", handleViewportLock);
 document.addEventListener("DOMContentLoaded", handleViewportLock);
+
