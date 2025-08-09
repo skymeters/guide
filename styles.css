@@ -358,7 +358,8 @@ body {
 }
 
 /* ===== Portrait lock overlay ===== */
-#portrait-blocker {
+#portrait-blocker,
+#wait-blocker {
   position: fixed;
   inset: 0;
   display: none;
@@ -367,7 +368,8 @@ body {
   backdrop-filter: blur(60px);
 }
 
-#portrait-blocker .portrait-box {
+#portrait-blocker .portrait-box,
+#wait-blocker .portrait-box {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -383,14 +385,19 @@ body {
   border: 1px solid rgba(255,255,255,.25);
 }
 
+
 body.portrait-active .top-bar,
 body.portrait-active .sidebar,
-body.portrait-active .main-scroll-area {
+body.portrait-active .main-scroll-area,
+body.api-wait-active .top-bar,
+body.api-wait-active .sidebar,
+body.api-wait-active .main-scroll-area {
   filter: blur(60px);
   pointer-events: none;
   user-select: none;
 }
 
-body.portrait-active #portrait-blocker {
+body.portrait-active #portrait-blocker,
+body.api-wait-active #wait-blocker {
   display: block;
 }
